@@ -1,0 +1,7 @@
+{
+  "name":"Lancer: Battlegroup (PC Abilities)",
+  "description": "This LCP contains playerside content for Lancer: Battlegroup, intended for the Foundry VTT",
+  "author":"83",
+  "version":"1.0.11",
+  "item_prefix":"BG"
+}
