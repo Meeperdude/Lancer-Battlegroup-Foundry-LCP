@@ -1,0 +1,1102 @@
+[{
+    "id": "npcf_sabotage_fire_control_boarding",
+    "name": "Sabotage Fire Control",
+    "origin": {
+      "type": "Boarding Command",
+      "name": "",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Boarding Command<br>The boarded ship’s battlegroup makes all single-target attack rolls with +2 DIFFICULTY until the end of their next turn.",
+    "tags": []
+  },
+  {
+    "id": "npcf_sever_comms_boarding",
+    "name": "Sever Comms",
+    "origin": {
+      "type": "Boarding Command",
+      "name": "",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Boarding Command<br>The boarded ship’s battlegroup cannot use Tactics until the end of their next turn.",
+    "tags": []
+  },
+  {
+    "id": "npcf_assault_cic_boarding",
+    "name": "Assault CIC",
+    "origin": {
+      "type": "Boarding Command",
+      "name": "",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Boarding Command<br>The boarded ship’s battlegroup cannot move player battlegroups with actions or abilities until the end of their next turn.",
+    "tags": []
+  },
+  {
+    "id": "npcf_range_3_0_escort",
+    "name": "Range 3-0",
+    "origin": {
+      "type": "Class",
+      "name": "Escort",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Range",
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "damage": [],
+    "range": [{
+      "type": "Range",
+      "val": 3
+    }],
+    "on_hit": ""
+  },
+  {
+    "id": "npcf_close_fire_support_corvette",
+    "name": "Close Fire Support",
+    "origin": {
+      "type": "Escort",
+      "name": "Corvette Escort",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Designating targets for close fire support allows these escorts to rapidly track and engage them. 1/round when you LOCK ON to a ship within Range 3–0 you may deal 1 damage to it for each of these ESCORTS in your battlegroup, to a maximum of 4 damage.",
+    "tags": [{
+      "id": "tg_round",
+      "val": 1
+    }]
+  },
+  {
+    "id": "npcf_trade_blows_corvette",
+    "name": "Corvette Command: Trade Blows",
+    "origin": {
+      "type": "Escort",
+      "name": "Corvette Escort",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Escort Command: Corvette Command [Tactic, Range 3-0]<br>Deal 2 damage to a hostile Wing, or deal 4 damage to a hostile CAPITAL SHIP and take 2 damage in return",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_defensive_formation_corvette",
+    "name": "Corvette Command: Defensive Formation",
+    "origin": {
+      "type": "Escort",
+      "name": "Corvette Escort",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Escort Command: Corvette Command [Tactic, Range 3-0]<br>Gain +2 Interdiction until the start of your next turn.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_gun_run_corvette",
+    "name": "Corvette Command: Gun Run",
+    "origin": {
+      "type": "Escort",
+      "name": "Corvette Escort",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Escort Command: Corvette Command [Tactic, Range 3-0]<br>(Limited 1) Deal 2 AREA-TARGET damage to a hostile battlegroup. Consuming LOCK ON from CAPITAL SHIPS or ESCORTS in that battlegroup increases this to 4 damage against those specific ships. This damage cannot be interdicted.",
+    "tags": [{
+        "id": "tg_limited",
+        "val": 1
+      },
+	  {
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_complimentary_fire_destroyer",
+    "name": "Complimentary Fire",
+    "origin": {
+      "type": "Escort",
+      "name": "Destroyer Escort",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The pulse lances, kinetic guns, or missile batteries carried by this ESCORT count as an AUXILIARY weapon for your battlegroup. When fired alongside any PRIMARY single-target weapon targeting a CAPITAL SHIP or ESCORT within Range 3–0, these weapons deal 2 damage to that same target",
+    "tags": []
+  },
+  {
+    "id": "npcf_cannonade_destroyer",
+    "name": "Destroyer Command: Cannonade",
+    "origin": {
+      "type": "Escort",
+      "name": "Destroyer Escort",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Escort Command: Destroyer Command [Tactic, Range 3-0]<br> Deal 3 damage to a hostile CAPITAL SHIP.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_snapflight_torpedoes_destroyer",
+    "name": "Destroyer Command: Snapflight Torpedoes",
+    "origin": {
+      "type": "Escort",
+      "name": "Destroyer Escort",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Escort Command: Destroyer Command [Tactic, Range 3-0]<br> Deal 6 damage to a hostile ESCORT.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_encirclement_destroyer",
+    "name": "Destroyer Command: Encirclement",
+    "origin": {
+      "type": "Escort",
+      "name": "Destroyer Escort",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Escort Command: Destroyer Command [Tactic, Range 3-0]<br>(Limited 1) Advance or fall back one range band. You may not use this command if you have used an effect or ability to move this turn, and after using it you may not move again this turn.",
+    "tags": [{
+        "id": "tg_limited",
+        "val": 1
+      },
+	  {
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_consume_pgr_gourd_limpets",
+    "name": "CONSUME",
+    "origin": {
+      "type": "Boarding Command",
+      "name": "PGR_Gourd Limpets",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Boarding Command: PGR_Gourd Command [Tactic, Tenacity 10, Range 3-0]<br>Apply 3 Greywash Counters to the boarded ship on a successful boarding roll, or 1 Greywash Counter on a failure. Spending a maneuver to clear Greywash Counters also repels this unit as well. This boarding action can stack with itself.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_surge_pgr_gourd_limpets",
+    "name": "SURGE",
+    "origin": {
+      "type": "Boarding Command",
+      "name": "PGR_Gourd Limpets",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Boarding Command: PGR_Gourd Command [Tactic, Tenacity 10, Range 3-0]<br>(Limited 1) Double the number of Greywash Counters on the boarded ship. If this boarding action fails, you do not expend this command’s LIMITED use.",
+    "tags": [{
+        "id": "tg_limited",
+        "val": 1
+      },
+	  {
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_sabotage_fire_control_PIPECLEANER",
+    "name": "Sabotage Fire Control",
+    "origin": {
+      "type": "Boarding Command",
+      "name": "PIPECLEANER Subalterns",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Boarding Command: PIPECLEANER Subalterns [Escort, Tenacity 12, Range 3-0]<br>The boarded ship’s battlegroup makes all single-target attack rolls with +2 DIFFICULTY until the end of their next turn.<br>When this unit succeeds on Sabotage Fire Control against a ship with one or more CHARGE weapons, that ship must also choose one: add 1 Charge Counter to a Charge weapon of your choice or take 5 damage. A boarded ship can only suffer from this effect 1/round.",
+    "tags": []
+  },
+  {
+    "id": "npcf_stuck_in_PIPECLEANER",
+    "name": "Stuck In",
+    "origin": {
+      "type": "Boarding Command",
+      "name": "PIPECLEANER Subalterns",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever a boarded ship fails a roll to repel this unit, the ship takes 2 damage.",
+    "tags": []
+  },
+  {
+    "id": "npcf_seeker_mines_cruiser",
+    "name": "Seeker Mines",
+    "origin": {
+      "type": "Escort",
+      "name": "Cruiser Escort",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When a hostile battlegroup forces your battlegroup or an allied battlegroup in the same range band to fall back or move forward any number of range bands, you may have this ESCORT deploy a field of seeker mines that deal 4 damage to a CAPITAL SHIP or ESCORT of your choice in that battlegroup. You may use this ability 1/round for each CRUISER ESCORT in your battlegroup, but only once per instance of hostile movement. ",
+    "tags": [{
+      "id": "tg_round",
+      "val": 1
+    }]
+  },
+  {
+    "id": "npcf_fire_at_will_cruiser",
+    "name": "Cruiser Command: Fire At Will",
+    "origin": {
+      "type": "Escort",
+      "name": "Cruiser Escort",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Escort Command: Cruiser Command [Tactic, Range 3-0]<br>Deal 4 damage to a hostile CAPITAL SHIP. You may also deal 2 AREA-TARGET damage to all ESCORTS in that ship’s battlegroup and take 2 damage in return. This damage cannot be interdicted.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_defensive_gunnery_cruiser",
+    "name": "Cruiser Command: Defensive Gunnery",
+    "origin": {
+      "type": "Escort",
+      "name": "Cruiser Escort",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Escort Command: Cruiser Command [Tactic, Range 3-0]<br>Gain +3 Interdiction until the start of your next turn.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_local_kill_screen_cruiser",
+    "name": "Cruiser Command: Local Kill Screen",
+    "origin": {
+      "type": "Escort",
+      "name": "Cruiser Escort",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Escort Command: Cruiser Command [Tactic, Range 3-0]<br>(Limited 1) Deal 5 damage to a hostile CAPITAL SHIP or ESCORT, deal 2 damage to all of that ship’s WINGS, and that ship makes all single-target attacks with +1 DIFFICULTY until the end of its next turn.",
+    "tags": [{
+        "id": "tg_limited",
+        "val": 1
+      },
+	  {
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_range_5_1_wing",
+    "name": "Range 5-1",
+    "origin": {
+      "type": "Class",
+      "name": "Wing",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Range",
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "damage": [],
+    "range": [{
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 1
+    }],
+    "on_hit": ""
+  },
+  {
+    "id": "npcf_range_4_0_wing",
+    "name": "Range 4-0",
+    "origin": {
+      "type": "Class",
+      "name": "Wing",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Range",
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "damage": [],
+    "range": [{
+      "type": "Range",
+      "val": 4
+    }],
+    "on_hit": ""
+  },
+  {
+    "id": "npcf_range_4_1_wing",
+    "name": "Range 4-1",
+    "origin": {
+      "type": "Class",
+      "name": "Wing",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Range",
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "damage": [],
+    "range": [{
+        "type": "Range",
+        "val": 4
+      },
+      {
+        "type": "Threat",
+        "val": 1
+    }],
+    "on_hit": ""
+  },
+  {
+    "id": "npcf_range_3_0_wing",
+    "name": "Range 3-0",
+    "origin": {
+      "type": "Class",
+      "name": "Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Range",
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "damage": [],
+    "range": [{
+      "type": "Range",
+      "val": 3
+    }],
+    "on_hit": ""
+  },
+  {
+    "id": "npcf_range_3_1_wing",
+    "name": "Range 3-1",
+    "origin": {
+      "type": "Class",
+      "name": "Wing",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Range",
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "damage": [],
+    "range": [{
+        "type": "Range",
+        "val": 3
+      },
+      {
+        "type": "Threat",
+        "val": 1
+    }],
+    "on_hit": ""
+  },
+  {
+    "id": "npcf_range_2_0_wing",
+    "name": "Range 2-0",
+    "origin": {
+      "type": "Class",
+      "name": "Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Range",
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "damage": [],
+    "range": [{
+      "type": "Range",
+      "val": 2
+    }],
+    "on_hit": ""
+  },
+  {
+    "id": "npcf_interpose_legion_drone_nexus",
+    "name": "Interpose",
+    "origin": {
+      "type": "Wing",
+      "name": "Legion Drone Nexus",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "1/round, you may order a LEGION DRONE NEXUS in your battlegroup to interpose itself between friendly units and incoming fire. Reduce hostile damage dealt to an ESCORT or WING in your battlegroup or an allied battlegroup in the same range band by 1. This WING then takes 2 damage.",
+    "tags": [{
+      "id": "tg_round",
+      "val": 1
+    }]
+  },
+  {
+    "id": "npcf_hunt_kill_legion_drone_nexus",
+    "name": "Legion Command: Hunt/Kill",
+    "origin": {
+      "type": "Wing",
+      "name": "Legion Drone Nexus",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Legion Command [Tactic, Range 3-0]<br>Hunt/Kill: Deal 1 damage to a hostile CAPITAL SHIP, ESCORT, or WING, or deal 2 damage to a hostile ESCORT or WING and take 2 damage in return.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_fleetwide_tactical_networking_legion_drone_nexus",
+    "name": "Fleetwide Tactical Networking",
+    "origin": {
+      "type": "Wing",
+      "name": "Legion Drone Nexus",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "As part of the Legion Command Tactic, you may assign another unused LEGION DRONE NEXUS from your battlegroup to join the sortie, giving them the same command. Allied battlegroups in your range band may use this tactic to command your LEGION DRONE NEXUSES as if they were under their control",
+    "tags": []
+  },
+  {
+    "id": "npcf_combat_patrols_fighter_wing",
+    "name": "Combat Patrols",
+    "origin": {
+      "type": "Wing",
+      "name": "Fighter Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Gain +1 Interdiction for each FIGHTER WING as they maintain combat patrols within your fleet’s perimeter, up to a maximum of +4 Interdiction.",
+    "tags": []
+  },
+  {
+    "id": "npcf_wingman_fighter_wing",
+    "name": "Wingman",
+    "origin": {
+      "type": "Wing",
+      "name": "Fighter Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "As part of the Fighter Command Tactic, you may assign another unused Fighter Wing from your battlegroup to join the sortie, selecting the same or a different command",
+    "tags": []
+  },
+  {
+    "id": "npcf_strafing_run_fighter_wing",
+    "name": "Fighter Command: Strafing Run",
+    "origin": {
+      "type": "Wing",
+      "name": "Fighter Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Fighter Command [Tactic, Range 2-0]<br>Deal 1 damage to a hostile CAPITAL SHIP or ESCORT.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_engage_and_eliminate_fighter_wing",
+    "name": "Fighter Command: Engage and Eliminate",
+    "origin": {
+      "type": "Wing",
+      "name": "Fighter Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Fighter Command [Tactic, Range 2-0]<br>Deal 3 damage to a hostile WING.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_torpedoes_away_bomber_wing",
+    "name": "Bomber Command: Torpedoes Away",
+    "origin": {
+      "type": "Wing",
+      "name": "Bomber Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Bomber Command [Tactic, Range 2-0]<br> Deal 4 damage to a hostile CAPITAL SHIP. You may assign another unused BOMBER WING from your battlegroup to assist, dealing an additional +2 damage.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_deploy_chaff_bomber_wing",
+    "name": "Active Countermeasures: Deploy Chaff",
+    "origin": {
+      "type": "Wing",
+      "name": "Fighter Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Active Countermeasures Command [Tactic, Range 4-0]<br>(Limited 1) Choose a CAPITAL SHIP in your battlegroup or an allied battlegroup in the same range band. Until the end of your next turn, the next time that ship takes damage reduce it by 1d3. This effect does not stack.",
+    "tags": [{
+        "id": "tg_limited",
+        "val": 1
+      },
+	  {
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_range_4_0_wing_bomber",
+    "name": "Range 4-0 (Active Countermeasures)",
+    "origin": {
+      "type": "Class",
+      "name": "Wing",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Range",
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "damage": [],
+    "range": [{
+        "type": "Range",
+        "val": 4
+    }],
+    "on_hit": ""
+  },
+  {
+    "id": "npcf_range_2_0_wing_bomber",
+    "name": "Range 2-0 (Bomber Command)",
+    "origin": {
+      "type": "Class",
+      "name": "Wing",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Range",
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "damage": [],
+    "range": [{
+      "type": "Range",
+      "val": 2
+    }],
+    "on_hit": ""
+  },
+  {
+    "id": "npcf_toe_to_toe_chassis_wing",
+    "name": "Chassis Command: Toe-to-Toe",
+    "origin": {
+      "type": "Wing",
+      "name": "Chassis Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Chassis Command [Tactic, Range 3-0]<br>Deal 1d3 damage to a hostile CAPITAL SHIP, ESCORT, or WING.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_breach_and_clear_chassis_wing",
+    "name": "Chassis Command: Breach and Clear",
+    "origin": {
+      "type": "Wing",
+      "name": "Chassis Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Chassis Command [Tactic, Tenacity 11, Range 3-0]<br>Assign this unit to board a hostile CAPITAL SHIP. Each time it succeeds on a boarding roll, the boarded ship takes 2 damage.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_hellish_regeneration_balor_chassis_wing",
+    "name": "Hellish Regeneration",
+    "origin": {
+      "type": "Wing",
+      "name": "Balor Chassis Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Balor’s nanoswarm construction allows it to hellishly regenerate physical damage sustained during combat. During the Logistics Phase, this unit repairs 2 HP.",
+    "tags": []
+  },
+  {
+    "id": "npcf_nanocomposite_munitions_balor_chassis_wing",
+    "name": "Balor Command: Nanocomposite Munitions",
+    "origin": {
+      "type": "Wing",
+      "name": "Balor Chassis Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Balor Command [Tactic, Range 3-0]<br>Deal 2 damage to a hostile ESCORT or WING, or consume LOCK ON from a CAPITAL SHIP to deal 2 damage to that ship, give it 2 Greywash Counters, and take 2 damage in return.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_hive_frenzy_balor_chassis_wing",
+    "name": "Balor Command: Hive Frenzy",
+    "origin": {
+      "type": "Wing",
+      "name": "Balor Chassis Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Balor Command [Tactic, Tenacity 12, Range 3-0]<br>Assign this unit to board a hostile CAPITAL SHIP. Each time it succeeds on a boarding roll, the boarded ship gains 2 Greywash Counters. Ships do not remove Greywash Counters during the Impact Phase while this Wing is aboard them.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_flak_launchers_barbarossa_chassis_wing",
+    "name": "Flak Launchers",
+    "origin": {
+      "type": "Wing",
+      "name": "Barbarossa Chassis Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The integrated flak launchers and anti-aerospace munitions carried by this WING count as an AUXILIARY weapon for your battlegroup. When fired alongside any PRIMARY single-target weapon targeting a CAPITAL SHIP or ESCORT within Range 3–0, these weapons deal 1 damage to that same target and 3 damage to a hostile WING in the same battlegroup.",
+    "tags": []
+  },
+  {
+    "id": "npcf_siege_cannons_barbarossa_chassis_wing",
+    "name": "Barbarossa Command: Siege Cannons",
+    "origin": {
+      "type": "Wing",
+      "name": "Barbarossa Chassis Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Barbarossa Command [Tactic, Range 3-0]<br>Deal 3 damage to a hostile CAPITAL SHIP or ESCORT.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_charge_apocalypse_rails_barbarossa_chassis_wing",
+    "name": "Barbarossa Command: Charge Apocalypse Rails",
+    "origin": {
+      "type": "Wing",
+      "name": "Barbarossa Chassis Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Barbarossa Command [Tactic, Range 3-0]<br>(Reloading 2) This Wing begins charging its integrated Apocalypse Rail weapons. During the next Impact Phase, you may order it to open fire on a hostile CAPITAL SHIP or ESCORT within range. Make a single-target attack roll, dealing 2d6 damage on hit with OVERKILL and RELIABLE 4.",
+    "tags": [{
+        "id": "tg_limited",
+        "val": 2
+      },
+	  {
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_apocalypse_rails_barbarossa_chassis_wing",
+    "name": "Apocalypse Rails",
+    "origin": {
+      "type": "Wing",
+      "name": "Barbarossa Chassis Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Overkill, Reliable 4<br>This weapon is used by the Charge Apocalypse Rails Wing Command",
+    "tags": [{
+        "id": "tg_overkill"
+      },
+      {
+        "id": "tg_reliable",
+        "val": "4"
+    }],
+    "weapon_type": "Wing Command",
+    "attack_bonus": [
+      0,
+      0,
+      0
+    ],
+    "damage": [{
+      "type": "Explosive",
+      "damage": [
+        "2d6",
+        "2d6",
+        "2d6"
+      ]
+    }],
+    "range": [{
+      "type": "Range",
+      "val": 3
+    }],
+    "on_hit": ""
+  },
+  {
+    "id": "npcf_avenger_silos_monarch_chassis_wing",
+    "name": "Avenger Silos",
+    "origin": {
+      "type": "Wing",
+      "name": "Monarch Chassis Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The integrated SSC-30 High-Penetration Missile Systems carried by these mechs allow them to coordinate reactive volleys of Avenger micromissiles with other strikes. 1/round whenever a weapon in your battlegroup or an allied battlegroup in the same range band critically hits a target within Range 3–0, even if it doesn’t have the CRITICAL tag, you may use these micromissiles to deal 2 damage to a hostile CAPITAL SHIP, ESCORT, or WING.",
+    "tags": [{
+      "id": "tg_round",
+      "val": 1
+    }]
+  },
+  {
+    "id": "npcf_seeking_payloads_monarch_chassis_wing",
+    "name": "Monarch Command: Seeking Payloads",
+    "origin": {
+      "type": "Wing",
+      "name": "Monarch Chassis Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Monarch Command [Tactic, Range 3-0]<br>Deal 2 damage to a hostile CAPITAL SHIP or ESCORT, or consume LOCK ON from a CAPITAL SHIP or ESCORT to deal 4 damage to that ship and either deal 2 damage to all of its WINGS or remove 1 Flight Counter from one of your active PAYLOAD attacks.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_gandiva_missiles_monarch_chassis_wing",
+    "name": "Monarch Command: Gandiva Missiles",
+    "origin": {
+      "type": "Wing",
+      "name": "Monarch Chassis Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Monarch Command [Tactic, Range 3-0]<br>This Wing launches a salvo of advanced Gandiva missiles. This is a PRIMARY single-target PAYLOAD attack that deals 1d6+3 damage and can be fired at up to two targets at a time, tracked individually. When using this command, you may consume LOCK ON from the target to add or remove one Flight Counter from that PAYLOAD.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_heavy_gunner_tortuga_chassis_wing",
+    "name": "Tortuga Command: Heavy Gunner",
+    "origin": {
+      "type": "Wing",
+      "name": "Tortuga Chassis Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Tortuga Command [Tactic, Range 3-0]<br>Deal 1d3 damage to a hostile ESCORT or WING. Until the end of your next turn, the next time the TORTUGA CHASSIS WING or the ship it is equipped to takes damage from an ESCORT or WING while within Range 3–0, you may deal 3 damage to it in response.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_decksweepers_chassis_wing",
+    "name": "Tortuga Command: Decksweepers",
+    "origin": {
+      "type": "Wing",
+      "name": "Tortuga Chassis Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Tortuga Command [Tactic, Range 3-0]<br>Repel a boarding unit from a ship in your battlegroup or in an allied battlegroup in the same range band, then deal 3 damage to that unit.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_daisy_cutters_chassis_wing",
+    "name": "Tortuga Command: Daisy Cutters",
+    "origin": {
+      "type": "Wing",
+      "name": "Tortuga Chassis Wing",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Tortuga Command [Tactic, Tenacity 12, Range 3-0]<br>Assign this unit to board a hostile CAPITAL SHIP. Each time it succeeds on a boarding roll, the boarded ship takes 2 damage. 2/engagement, you may increase this to 1d6+1 damage instead.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_strike_package_ace_squadron",
+    "name": "Ace Command: Strike Package",
+    "origin": {
+      "type": "Wing",
+      "name": "Ace Squadron",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Ace Command [Tactic, Range 3-0]<br> Deal 1d3+1 damage to a hostile CAPITAL SHIP, ESCORT, or WING.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_aggresive_pickets_ace_squadron",
+    "name": "Aggresive Pickets",
+    "origin": {
+      "type": "Wing",
+      "name": "Ace Squadron",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever a hostile battlegroup forces your battlegroup to fall back or move forward any number of range bands, you may deal 2 damage to an ESCORT or WING in that battlegroup.",
+    "tags": []
+  },
+  {
+    "id": "npcf_casque_armor_ace_squadron",
+    "name": "Casque Armor",
+    "origin": {
+      "type": "Wing",
+      "name": "Ace Squadron",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "This ACE SQUADRON gains +4 HP",
+    "tags": [],
+    "bonus": {
+      "hp": 4
+    }
+  },
+  {
+    "id": "npcf_goalkeeper_ace_squadron",
+    "name": "Goalkeeper",
+    "origin": {
+      "type": "Wing",
+      "name": "Ace Squadron",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Any battlegroup this ACE SQUADRON is assigned to gains +2 INTERDICTION.",
+    "tags": []
+  },
+  {
+    "id": "npcf_instinct_pods_ace_squadron",
+    "name": "Ace Command: Instinct Pods",
+    "origin": {
+      "type": "Wing",
+      "name": "Ace Squadron",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Ace Command [Tactic, Range 3-0 or 4-0]<br>Set Heat to reload counters<br>(Limited 2, Reloading 2) Choose a hostile battlegroup within range. Until the end of your next turn that battlegroup cannot benefit from ACCURACY on its attack rolls except to cancel out DIFFICULTY, and ships in that battlegroup take 3 damage any time they miss an attack roll.",
+    "tags": [{
+        "id": "tg_limited",
+        "val": 2
+      },
+	  {
+        "id": "tg_quick_action"
+    }],
+    "bonus": {
+      "heatcap": 2
+    }
+  },
+  {
+    "id": "npcf_jettison_ram_ace_squadron",
+    "name": "Jettison Ram",
+    "origin": {
+      "type": "Wing",
+      "name": "Ace Squadron",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "This ACE SQUADRON gains BOARDING and TENACITY 13. Whenever a boarded ship fails a roll to repel it, the ship takes 4 damage. Ships that it boards take 2 damage if their battlegroup spends a maneuver to repel boarders.",
+    "tags": [],
+    "bonus": {
+      "evade": 13
+    }
+  },
+  {
+    "id": "npcf_microburst_drives_ace_squadron",
+    "name": "Microburst Drives",
+    "origin": {
+      "type": "Wing",
+      "name": "Ace Squadron",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The range of ACE COMMAND increases to 4–0",
+    "tags": []
+  },
+  {
+    "id": "npcf_nhp_co_pilot_ace_squadron",
+    "name": "NHP Co-Pilot",
+    "origin": {
+      "type": "Wing",
+      "name": "Ace Squadron",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "(Reloading 3) You may use an additional tactic during your turn, but it must be ACE COMMAND.",
+    "tags": [{
+        "id": "tg_limited",
+        "val": 3
+    }]
+  },
+  {
+    "id": "npcf_redline_operation_ace_squadron",
+    "name": "Redline Operation",
+    "origin": {
+      "type": "Wing",
+      "name": "Ace Squadron",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "This ACE SQUADRON may take 2 damage to deal +2 damage with any non-boarding damage effect.",
+    "tags": []
+  },
+  {
+    "id": "npcf_shipkiller_ace_squadron",
+    "name": "Ace Command: Shipkiller",
+    "origin": {
+      "type": "Wing",
+      "name": "Ace Squadron",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Ace Command [Tactic, Range 3-0 or 4-0]<br>(Limited 1) Deal 5 damage to a hostile CAPITAL SHIP. If it is at HALF HP or less (not counting OVERSHIELD), deal 7 damage instead. If this destroys the target, do not expend this command’s LIMITED use. You may use this ability as a maneuver during your turn to increase its damage by +2. Otherwise, this command’s damage cannot be increased in any way.",
+    "tags": [{
+        "id": "tg_limited",
+        "val": 1
+      },
+	  {
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_tac_comm_scout_package_ace_squadron",
+    "name": "Ace Command: Tac/Comm Scout Package",
+    "origin": {
+      "type": "Wing",
+      "name": "Ace Squadron",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Ace Command [Tactic, Range 3-0 or 4-0]<br>(Reloading 2) LOCK ON to two CAPITAL SHIPS or ESCORTS.",
+    "tags": [{
+        "id": "tg_limited",
+        "val": 2
+      },
+	  {
+        "id": "tg_quick_action"
+    }]
+  },
+  {
+    "id": "npcf_ticket_puncher_ace_squadron",
+    "name": "Ace Command: Ticket Puncher",
+    "origin": {
+      "type": "Wing",
+      "name": "Ace Squadron",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Wing Command: Ace Command [Tactic, Range 3-0 or 4-0]<br>Choose a hostile CAPITAL SHIP or ESCORT. Your ACE SQUADRON sets a collision course with them. During the next Impact Phase, deal 1d6+6 damage to the target ship and then destroy the ACE SQUADRON. This damage ignores OVERSHIELD and cannot be prevented or increased in any way. Your pilots will not survive; an ACE SQUADRON destroyed using this command cannot be brought back to the battle by any means.",
+    "tags": [{
+        "id": "tg_quick_action"
+    }]
+  }
+]

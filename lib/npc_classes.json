@@ -1,0 +1,1454 @@
+[
+  {
+    "id": "npcc_marine_landers",
+    "name": "Marine Landers",
+    "role": "controller",
+    "info": {
+      "flavor": "The design of marine boarding vessels has changed little in the last 100 years of naval warfare. Minimally armed and moderately armored, built for speed and carrying capacity, these craft are solely designed to make contact with enemy ships and breach their outer hulls to allow their passengers to begin the perilous task of boarding actions. Veteran marines have a wealth of colorful nicknames for these ships, few of which are fit for polite company.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        0,
+        0,
+        0
+      ],
+      "evade": [
+        10,
+        10,
+        10
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+	  "npcf_range_3_0_escort",
+      "npcf_sabotage_fire_control_boarding",
+      "npcf_sever_comms_boarding",
+      "npcf_assault_cic_boarding"
+    ],
+    "optional_features": [],
+    "power": 100
+  },
+  {
+    "id": "npcc_corvette_escort",
+    "name": "Corvette Escort",
+    "role": "striker",
+    "info": {
+      "flavor": "Corvettes operate in small squadrons, fulfilling lighter-than/heavier-than duties that some fleet commanders prefer for versatility. The smallest subline vessels in use, corvettes are often tasked with fire support and targeted strike operations in a gunship-equivalent role",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        6,
+        6,
+        6
+      ],
+      "evade": [
+        0,
+        0,
+        0
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+	  "npcf_range_3_0_escort",
+      "npcf_close_fire_support_corvette",
+      "npcf_trade_blows_corvette",
+      "npcf_defensive_formation_corvette",
+	  "npcf_gun_run_corvette"
+    ],
+    "optional_features": [],
+    "power": 100
+  },
+  {
+    "id": "npcc_destroyer_escort",
+    "name": "Destroyer Escort",
+    "role": "striker",
+    "info": {
+      "flavor": "Sleek, fast, and outfitted with powerful weapons sufficient to threaten both capital ships and other subline vessels alike, destroyer designs often sacrifice as many nonessential functions as possible to maximize their effective firepower. Destroyers typically operate in wolfpacks, prowling the perimeter of engagements on the lookout for opportunities to strike at a fleet’s exposed flanks.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        8,
+        8,
+        8
+      ],
+      "evade": [
+        0,
+        0,
+        0
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+	  "npcf_range_3_0_escort",
+      "npcf_complimentary_fire_destroyer",
+      "npcf_cannonade_destroyer",
+      "npcf_snapflight_torpedoes_destroyer",
+	  "npcf_encirclement_destroyer"
+    ],
+    "optional_features": [],
+    "power": 100
+  },
+  {
+    "id": "npcc_pgr_gourd_limpets",
+    "name": "PGR_Gourd Limpets",
+    "role": "striker",
+    "info": {
+      "flavor": "PGR_Gourd limpets are terribly cruel nanite weapons, likely created and propagated by HORUS cells. After attaching to an enemy vessel, the limpets disgorge liters of “greywash” into their targets. These nanite washes tear through the open spaces inside of capital ships, consuming organic and soft inorganic material, eliminating the enemy without firing a shot. All that is left after a greywash burnout is a brownish-red slurry of processed waste material, empty hardsuits, and dead nanites.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        0,
+        0,
+        0
+      ],
+      "evade": [
+        10,
+        10,
+        10
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+	  "npcf_range_3_0_escort",
+      "npcf_consume_pgr_gourd_limpets",
+      "npcf_surge_pgr_gourd_limpets"
+    ],
+    "optional_features": [],
+    "power": 100
+  },
+  {
+    "id": "npcc_pipecleaner_subalterns",
+    "name": "PIPECLEANER Subalterns",
+    "role": "controller",
+    "info": {
+      "flavor": "PIPECLEANER subalterns, part of IPS-N’s Warfighter line, are commonly inserted into enemy ships at dangerous, unconventional breach-points. They can be remotely controlled by a human handler but are more often commanded by a projected NHP partition controlling a networked squad as a single unit. Humanoid in appearance, they are built with many more points of articulation along with secondary bladed appendages for activity in close, low or null-g environments. In combat, they act with frightening, uncanny speed and movements.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        0,
+        0,
+        0
+      ],
+      "evade": [
+        12,
+        12,
+        12
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+	  "npcf_range_3_0_escort",
+      "npcf_sabotage_fire_control_PIPECLEANER",
+      "npcf_sever_comms_boarding",
+      "npcf_assault_cic_boarding",
+	  "npcf_stuck_in_PIPECLEANER"
+    ],
+    "optional_features": [],
+    "power": 100
+  },
+  {
+    "id": "npcc_cruiser_escort",
+    "name": "Cruiser Escort",
+    "role": "defender",
+    "info": {
+      "flavor": "The largest subline ships, only a step below frigates, cruisers mount a wide array of offensive and defensive systems that allow them to flexibly and robustly reinforce a fleet’s threat envelope as circumstances dictate. Relatively independent for subline vessels and often used for in-system patrols or local planetary defense, the command of a cruiser is often seen as a vital step in a naval officer’s career.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        10,
+        10,
+        10
+      ],
+      "evade": [
+        0,
+        0,
+        0
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+	  "npcf_range_3_0_escort",
+      "npcf_seeker_mines_cruiser",
+      "npcf_fire_at_will_cruiser",
+      "npcf_defensive_gunnery_cruiser",
+	  "npcf_local_kill_screen_cruiser"
+    ],
+    "optional_features": [],
+    "power": 100
+  },
+  {
+    "id": "npcc_legion_drone_nexus",
+    "name": "Legion Drone Nexus",
+    "role": "striker",
+    "info": {
+      "flavor": "Remotely piloted drone fighters controlled as appendages of a fleet legion are a simple and cost-effective method of force projection that also serves to minimize overall casualties during engagements. Despite this, susceptibility to electronic interference and systemic attacks prevents them from ever fully replacing manned strike craft. Fully integrated fleetwide tactical networking allows all battlegroup commanders to coordinate drone operations to and from any ship as necessary.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        4,
+        4,
+        4
+      ],
+      "evade": [
+        0,
+        0,
+        0
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+	  "npcf_range_3_0_wing",
+      "npcf_interpose_legion_drone_nexus",
+      "npcf_fleetwide_tactical_networking_legion_drone_nexus",
+      "npcf_hunt_kill_legion_drone_nexus"
+    ],
+    "optional_features": [],
+    "power": 100
+  },
+  {
+    "id": "npcc_fighter_wing",
+    "name": "Fighter Wing",
+    "role": "striker",
+    "info": {
+      "flavor": "Fighters are small, multi-purpose, single-pilot ships with a wide combat portfolio, ranging from combat patrols, to subline escort, to ordnance interception. Fighter wings, though outclassed by the raw power of larger ships, are integral units in any battlegroup for their versatility alone.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        5,
+        5,
+        5
+      ],
+      "evade": [
+        0,
+        0,
+        0
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+	  "npcf_range_2_0_wing",
+      "npcf_combat_patrols_fighter_wing",
+      "npcf_wingman_fighter_wing",
+      "npcf_strafing_run_fighter_wing",
+	  "npcf_engage_and_eliminate_fighter_wing"
+    ],
+    "optional_features": [],
+    "power": 100
+  },
+  {
+    "id": "npcc_bomber_wing",
+    "name": "Bomber Wing",
+    "role": "striker",
+    "info": {
+      "flavor": "Bombers are larger vessels crewed by two to four crewmembers and loaded with anti-capital ordnance that lets them punch far above their weight class. If ignored, a wing of these ships can be as dangerous as a single ship of the line. Bombers are also frequently outfitted with large reserves of defensive countermeasures to help screen their carrier’s advance and during strike operations, including pulse-flares, EMP charges, and decoy signal emitters.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        5,
+        5,
+        5
+      ],
+      "evade": [
+        0,
+        0,
+        0
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+	  "npcf_range_2_0_wing_bomber",
+      "npcf_torpedoes_away_bomber_wing",
+      "npcf_range_4_0_wing_bomber",
+      "npcf_deploy_chaff_bomber_wing"
+    ],
+    "optional_features": [],
+    "power": 100
+  },
+  {
+    "id": "npcc_mounted_chassis_wing",
+    "name": "Mounted Chassis Wing",
+    "role": "striker",
+    "info": {
+      "flavor": "Chassis mounts are exterior-mounted frames that allow mechs them to operate in deep space. With a mount installed, mechs rocket toward enemy capital ships, dogfight, and maneuver in space with far more agility than conventional mech-tier EVA units would otherwise allow.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        5,
+        5,
+        5
+      ],
+      "evade": [
+        11,
+        11,
+        11
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+	  "npcf_range_3_0_wing",
+      "npcf_toe_to_toe_chassis_wing",
+      "npcf_breach_and_clear_chassis_wing",
+      "npcf_sabotage_fire_control_boarding",
+      "npcf_sever_comms_boarding",
+      "npcf_assault_cic_boarding"
+    ],
+    "optional_features": [],
+    "power": 100
+  },
+  {
+    "id": "npcc_balor_chassis_wing",
+    "name": "Balor Chassis Wing",
+    "role": "striker",
+    "info": {
+      "flavor": "One of the more infamous HORUS pattern-groups, the Balor is a highly resilientchassis that employs frame-integrated, neurosynced “hellswarms” of greywash nanites in both offensive and defensive capacities. First encountered during the latter days of the Sanjak Rebellion under the command of the Maw, a Baronic Free Company turned decentralized hive-being, the Balor enjoys a grim reputation as persistent and intractable danger within Baronic space and beyond, but some ambitious Karrakin commanders in the Dawnline Shore have developed an appreciation for the unique tactical advantages they offer as horrifyingly effective boarding units.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        8,
+        8,
+        8
+      ],
+      "evade": [
+        12,
+        12,
+        12
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+	  "npcf_range_3_0_wing",
+	  "npcf_hellish_regeneration_balor_chassis_wing",
+      "npcf_nanocomposite_munitions_balor_chassis_wing",
+      "npcf_hive_frenzy_balor_chassis_wing",
+      "npcf_sabotage_fire_control_boarding",
+      "npcf_sever_comms_boarding",
+      "npcf_assault_cic_boarding"
+    ],
+    "optional_features": [],
+    "power": 100
+  },
+  {
+    "id": "npcc_barbarossa_chassis_wing",
+    "name": "Barbarossa Chassis Wing",
+    "role": "artillery",
+    "info": {
+      "flavor": "Harrison Armory’s Barbarossa heavy siege chassis is an artillery/anti-air frame designed to engage targets in both terrestrial and low-gravity operations. Equipped with an integrated LGC-04 “Apocalypse Rail” gravitic catapult, the Barbarossa can capably engage subline vessels, and in massed volleys can even threaten capital ships. The additional power plants and stabilizers provided by a chassis mount help mitigate the drawbacks of the famously temperamental Apocalypse Rail, allowing for more consistent output while still permitting full zero-g maneuverability.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        8,
+        8,
+        8
+      ],
+      "evade": [
+        0,
+        0,
+        0
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+	  "npcf_range_3_0_wing",
+      "npcf_flak_launchers_barbarossa_chassis_wing",
+      "npcf_siege_cannons_barbarossa_chassis_wing",
+      "npcf_charge_apocalypse_rails_barbarossa_chassis_wing",
+      "npcf_apocalypse_rails_barbarossa_chassis_wing"
+    ],
+    "optional_features": [],
+    "power": 100
+  },
+  {
+    "id": "npcc_monarch_chassis_wing",
+    "name": "Monarch Chassis Wing",
+    "role": "artillery",
+    "info": {
+      "flavor": "Smith-Shimano’s Monarch is a highly versatile all-theater combat chassis, part of the company’s BELLA CIAO line, created to serve as a multirole missile launch platform. Rigorously designed to exacting standards and surprisingly agile for its size, Monarchs are equipped with advanced targeting systems capable of coordinating multiple simultaneous weapon launches for optimal effect. Though not originally intended as a naval combat chassis, the Monarch’s responsive controls and ability to equip a wide variety of missile payloads have led to its increasing adoption by pilots who value its combination of speed and firepower.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        8,
+        8,
+        8
+      ],
+      "evade": [
+        0,
+        0,
+        0
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+	  "npcf_range_3_0_wing",
+      "npcf_avenger_silos_monarch_chassis_wing",
+      "npcf_seeking_payloads_monarch_chassis_wing",
+      "npcf_gandiva_missiles_monarch_chassis_wing"
+    ],
+    "optional_features": [],
+    "power": 100
+  },
+  {
+    "id": "npcc_tortuga_chassis_wing",
+    "name": "Tortuga Chassis Wing",
+    "role": "defender",
+    "info": {
+      "flavor": "IPS-N’s Tortuga is one of the corpro’s most iconic and widespread chassis designs, offered in whole-fleet line contracts to numerous clients and states. The Tortuga is purpose-built to operate in deep space; though it makes for an adequate strike unit with the addition of a chassis mount, the Tortuga is primarily meant to breach and clear carrier decks, hostile station environments, and the spinal columns of capital ships. With its heavy, angular hull it serves as both battering ram and bulwark, clearing a path for allied boarders as it advances. An integrated WATCHDOG co-pilot system provides pilots with additional full-spectrum response capability under even heavy fire.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        8,
+        8,
+        8
+      ],
+      "evade": [
+        12,
+        12,
+        12
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+	  "npcf_range_3_0_wing",
+      "npcf_heavy_gunner_tortuga_chassis_wing",
+      "npcf_decksweepers_chassis_wing",
+	  "npcf_daisy_cutters_chassis_wing",
+      "npcf_sabotage_fire_control_boarding",
+      "npcf_sever_comms_boarding",
+      "npcf_assault_cic_boarding"
+    ],
+    "optional_features": [],
+    "power": 100
+  },
+  {
+    "id": "npcc_ace_squadron",
+    "name": "Ace Squadron",
+    "role": "striker",
+    "info": {
+      "flavor": "ACE SQUADRONS are specialized WINGS that players can take to represent particularly renowned and skilled pilots operating under their command. These can take the form of a diverse range of strike craft, including advanced fighters and bombers, and they can also serve to represent Lancer characters within the context of Battlegroup, allowing players to incorporate their mech pilots directly into the action as they lead a squadron of mounted chassis into battle. They are purchased with points and equipped to ships normally like other WINGS.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        6,
+        6,
+        6
+      ],
+      "evade": [
+        0,
+        0,
+        0
+      ],
+      "edef": [
+        0,
+        0,
+        0
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        0,
+        0,
+        0
+      ],
+      "sensor": [
+        0,
+        0,
+        0
+      ],
+      "save": [
+        0,
+        0,
+        0
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+	  "npcf_range_3_0_wing",
+      "npcf_strike_package_ace_squadron"
+    ],
+    "optional_features": [
+	  "npcf_aggresive_pickets_ace_squadron",
+	  "npcf_casque_armor_ace_squadron",
+	  "npcf_goalkeeper_ace_squadron",
+	  "npcf_instinct_pods_ace_squadron",
+	  "npcf_jettison_ram_ace_squadron",
+	  "npcf_sabotage_fire_control_boarding",
+	  "npcf_sever_comms_boarding",
+	  "npcf_assault_cic_boarding",
+	  "npcf_microburst_drives_ace_squadron",
+	  "npcf_range_4_0_wing",
+	  "npcf_nhp_co_pilot_ace_squadron",
+	  "npcf_redline_operation_ace_squadron",
+	  "npcf_shipkiller_ace_squadron",
+	  "npcf_tac_comm_scout_package_ace_squadron",
+	  "npcf_ticket_puncher_ace_squadron"
+    ],
+    "power": 100
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "FKS",
+    "name": "Federal Karrakin Shipyards",
+    "light": "#ff0000",
+    "dark": "#ff0000",
+    "description": "<div>The Karrakin Trade Baronies is a federation of the largest and most powerful monarchies in known space. Its barons claim to represent the oldest unbroken civilization in human history, one seeded prior to the Fall and the foundation of Union. The byzantine politics and power struggles of the Baronies are reflected in the naval forces of the Baronic Unified Command, which are subject to the competing design interests of various factions. The KTB is also extremely wealthy, and is known to regularly establish contracts for ships, chassis, and weapons from designers like Smith-Shimano Corpro.</div><div>While FKS ships tend to be powerful on an individual basis, they pay for this with higher costs and other drawbacks commanders must contend with.</div>",
+    "quote": "<div><em>Veni</em></div><div><em>Vidi</em></div><div><em>Vici</em></div>"
+  }
+]

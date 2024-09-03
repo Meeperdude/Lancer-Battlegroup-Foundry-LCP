@@ -1,0 +1,2101 @@
+[
+  {
+    "id": "Berth",
+    "name": "Subline Berth",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Unique</strong></div><div>This ship gains +1 ESCORT slot.</div>",
+    "type": "System",
+    "sp": "0",
+    "description": "<div>The primary limiting factor in deploying subline vessels is one of logistics. These ships frequently sacrifice all but the bare essentials in order to maximize their effective firepower, restricting their maximum deployment range and limiting the time they can remain combat effective without resupply. These restrictions can be overcome through the incorporation of additional supply holds, hull upgrades, and logistical infrastructure, allowing any ship of the line to manage and maintain their own escorts for extended durations.</div>",
+    "tags": [
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ]
+  },
+  {
+    "id": "FLC",
+    "name": "Fighter Launch Catapults",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>Unique, System</strong></div><div>This ship gains +1 WING slot.</div>",
+    "type": "System",
+    "sp": "0",
+    "description": "<div>While dedicated carriers have an uncontested place in conventional naval doctrine, many commanders value the versatility of carrier tactics enough to modify other ships modified so they can maintain  and launch a modest complement of fighter-tier strike craft or mounted chassis. This can involve either internal retrofitting or the addition of externally mounted hangar bays affixed to a ship’s hull.</div>",
+    "tags": [
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ]
+  },
+  {
+    "id": "AggressiveCMDR",
+    "name": "Aggressive Commanders",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Unique</strong></div><div>All single-target attacks made by and against you at Range 2-0 gain +1 ACCURACY. Additionally, 1/engagement, you may choose one:</div><div>• When a hostile effect or ability forces your battlegroup to move forward any number of range bands, one of your CAPITAL SHIPS gains 5 OVERSHIELD.</div><div>• When a hostile effect or ability forces an allied battlegroup to move forward any number of range bands, your battlegroup moves instead. If this prevents a hostile ship from targeting the allied battlegroup with an attack or ability as part of that same action, it may target you instead.</div>",
+    "type": "System",
+    "sp": "0",
+    "description": "<div>Your battlegroup’s combat doctrine emphasizes aggressive movement, closing gaps and plotting courses that more timid commanders would eschew. This impetus is not without sacrifice, often requiring defensive positioning and predictability to be traded for a chance to take the fight directly to your enemies</div>",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 1
+      },
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Aggressive Commanders",
+        "activation": "Free",
+        "detail": "<div>1/ engagement, you may choose one:</div><div>• When a hostile effect or ability forces your battlegroup to move forward any number of range bands, one of your CAPITAL SHIPS gains 5 OVERSHIELD.</div><div>• When a hostile effect or ability forces an allied battlegroup to move forward any number of range bands, your battlegroup moves instead. If this prevents a hostile ship from targeting the allied battlegroup with an attack or ability as part of that same action, it may target you instead.</div>",
+        "cost": "1",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ]
+  },
+  {
+    "id": "Bulwark",
+    "name": "Bulwark Redundancies",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System</strong></div><div>This ship gains +3 HP. This system can only be taken once per ship.</div>",
+    "type": "System",
+    "sp": "0",
+    "description": "<div>Extensive superstructural modifications and endo/exo uparmoring can help a ship survive hits that would otherwise kill a stock version of the same vessel.</div>",
+    "bonuses": [
+      {
+        "id": "hp",
+        "val": 3,
+        "damage_types": [],
+        "range_types": [],
+        "weapon_types": [],
+        "weapon_sizes": [],
+        "overwrite": false,
+        "replace": false
+      }
+    ]
+  },
+  {
+    "id": "CtL",
+    "name": "Cleared to Land",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Unique</strong></div><div>Gain the <strong>Cleared to Land tactic.</strong></div>",
+    "type": "System",
+    "sp": "0",
+    "description": "<div>A deckie has one job: keep the deck clear, planes loaded, bombers crewed, marines in their pens, subalterns packed, wounded cleared, fires suppressed, munitions clean…</div>",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 1
+      },
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Cleared to Land",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic, Limited 1</strong></div><div>All of your ESCORTS and WINGS or all ESCORTS and WINGS belonging to an allied battlegroup in the same range band as you repair 2 HP. One ESCORT or WING of your choice in that battlegroup may repair 4 HP instead.</div>",
+        "cost": "1",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ]
+  },
+  {
+    "id": "Brace",
+    "name": "Brace for Impact",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Limited 1, Unique</strong></div><div>Choose one when you use this system:</div><div>• You may activate this system during the Impact Phase after attacks have been rolled and damage has been assigned: all damage taken by ships in your battlegroup is reduced by half until the end of your next turn. You may not use any tactics or perform any maneuvers during your next turn except for All Ahead Full or Retrograde Burn.</div><div>• You may use the Brace for Impact tactic below during your turn.</div>",
+    "type": "System",
+    "sp": "0",
+    "description": "<div>The order that every commander dreads to give.</div>",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 1
+      },
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Brace for Impact",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic, Limited 1</strong></div><div>Your battlegroup becomes BOLSTERED until the end of your next turn.</div>",
+        "cost": "1",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ]
+  },
+  {
+    "id": "FfE",
+    "name": "Fire for Effect",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Unique</strong></div><div>Gain the Fire for Effect tactic:</div>",
+    "type": "System",
+    "sp": "",
+    "description": "<div>Bracketing is satisfactory and trajectories are true: all guns, fire for effect.</div>",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 1
+      },
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Fire for Effect",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic, Limited 1</strong></div><div>Nominate a hostile battlegroup as a priority target. Until the start of the next Logistics Phase, all single-target attacks made against that battlegroup gain +1 ACCURACY.</div>",
+        "cost": "1",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ]
+  },
+  {
+    "id": "POSP",
+    "name": "Predict/Overlay Shield Projector",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Limited 1, Unique</strong></div><div>During the Impact Phase, you may reduce incoming damage assigned to a CAPITAL SHIP in your battlegroup from a SUPERHEAVY weapon by 6. At Range 5, this damage reduction is increased to 10 instead.</div>",
+    "type": "System",
+    "sp": "0",
+    "description": "<div>P/OS projectors flash-layer alternating fields of magnetics, kinetics, coherent particles, and shimmering waveform shields over friendly ships under threat. These layered systems, flashed for a moment, can precisely dismantle, deflect, and defray incoming fire against critical targets, turning what might otherwise have been a kill shot into something more survivable, if only just.</div>",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 1
+      },
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ]
+  },
+  {
+    "id": "InsightfulCMDRS",
+    "name": "Insightful Commanders",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Unique</strong></div><div>1/round, when a hostile effect or ability forces you to move back or forward any number of range bands, your next single-target attack gains +1 ACCU ACY, or +2 ACCURACY if you are attacking from Range 5-4. This effect lasts until the end of your next turn and does not stack. Additionally, 1/engagement when moved by a hostile effect or ability, you may instead attack with a single PRIMARY weapon of your choice before or after the hostile movement.</div>",
+    "type": "System",
+    "sp": "0",
+    "description": "<div>Through hard-won experience, advanced predictive modeling, or simply a keen sense of tactical intuition, your battlegroup’s commanders are adept at reading the shifting tides of battle and responding accordingly.</div>",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 1
+      },
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Insightful Commanders",
+        "activation": "Free",
+        "detail": "<div>Additionally, 1/engagement when moved by a hostile effect or ability, you may instead attack with a single PRIMARY weapon of your choice before or after the hostile movement.</div>",
+        "cost": "1",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ]
+  },
+  {
+    "id": "SP Shield",
+    "name": "Single-Plane Shield",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Limited 1</strong></div><div>During the Impact Phase, you may reroll your Interdiction roll and take the best result.</div>",
+    "type": "System",
+    "sp": "",
+    "description": "<div>Many ships of the line use strong-energy systems to supplement fleetwide point defenses. More effective against slower forms of ordnance than against high-velocity and directed-energy munitions, these shields nonetheless serve as excellent additional protection against massed salvos of missiles or torpedoes.</div>",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "Piper",
+    "name": "Piper Drones",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Limited 1, Unique</strong></div><div>During the Logistics Phase, you may choose one:</div><div>• Add 1 Flight Counter to an active hostile PAYLOAD attack targeting one of your ships or your battlegroup.</div><div>• Redirect an active hostile PAYLOAD attack toward one of your ships or your battlegroup.</div>",
+    "type": "System",
+    "sp": "0",
+    "description": "<div>Piper drones are defensive, single-use drones fired from ships under threat from guided missiles. Once launched, piper drones emit like-signatures cloned from their parent ship, diverting  incoming missiles via signal spoofing.</div>",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 2
+      },
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ]
+  },
+  {
+    "id": "SteadyNow",
+    "name": "Steady... Now!",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Unique</strong></div><div>Gain the <strong>Steady... Now! </strong>tactic:</div>",
+    "type": "System",
+    "sp": "0",
+    "description": "<div>The key is balance: never fire too early, and always before it is too late.</div>",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 2
+      },
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Steady... Now!",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic, Limited 1</strong></div><div>Choose a weapon in your battlegroup with the CHARGE tag. Your next attack with that weapon gains +1 ACCURACY and +X RELIABLE, where X is based on your range band (i.e., Extreme Range grants +5, Long Range grants +4, etc).</div>",
+        "cost": "1",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ]
+  },
+  {
+    "id": "VeteranCrews",
+    "name": "Veteran Crews",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Limited 1</strong></div><div>You may reroll one of your attack rolls but must keep the second result. On a reroll result of 20+, you do not expend this system’s Limited use.</div>",
+    "type": "System",
+    "sp": "0",
+    "description": "<div>Veteran crews have been through the tense dance of interstellar combat before and are well prepared to handle the stress and chaos each new engagement brings.</div>",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "EchoImago",
+    "name": "Echopraxic Imago",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Boarding, Legionspace, Unique [Tenacity 10] </strong></div><div>This electronic warfare system can only be used to perform the Echopraxic Imago tactic:</div>",
+    "type": "System",
+    "sp": "1",
+    "description": "<div>Conventional systemic attacks are largely ineffective at the scale of most fleet legions. To engage enemy legionspace gestalts requires more powerful – and more esoteric – methods of electronic/ontologic warfare.</div>",
+    "tags": [
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Echopraxic Imago",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic, Range 5-3</strong></div><div>You introduce a viral logic bomb into the systems of a hostile CAPITAL SHIP, which is treated as a boarding action. This bomb takes hold during the Boarding Phase, attempting one of the following commands (your choice):</div><div>• Induce Nostalgic Loop: Until the end of its next turn, the boarded ship’s battlegroup rolls twice for Interdiction and takes the worse result. While this effect is active, if any of the affected battlegroup’s final Interdiction rolls result in a 1 on any die, the affected ship takes 3 damage.</div><div>• Inflict Ontological Parasite: Choose a range band. Until the end of its next turn, the boarded battlegroup’s attack rolls against targets in that range band have a 50 percent chance to miss outright before the attack is made. Roll a die or flip a coin to determine if the attack misses. This does not stack with Defensive Screen; the defender chooses which effect to apply. Additionally, the boarded battlegroup cannot choose that range band for abilities that affect or target specific ranges.</div>",
+        "pilot": false,
+        "range": [
+          {
+            "type": "Range",
+            "val": 5
+          },
+          {
+            "type": "Threat",
+            "val": 3
+          }
+        ],
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      },
+      {
+        "name": "Induce Nostalgic Loop",
+        "activation": "Invade",
+        "detail": "<div><strong>Boarding Command: Echopraxic Imago [Tactic, Tenacity 10, Range 5-3]</strong></div><div>Until the end of its next turn, the boarded ship’s battlegroup rolls twice for Interdiction and takes the worse result. While this effect is active, if any of the affected battlegroup’s final Interdiction rolls result in a 1 on any die, the affected ship takes 3 damage.</div>",
+        "pilot": false,
+        "range": [
+          {
+            "type": "Range",
+            "val": 5
+          },
+          {
+            "type": "Threat",
+            "val": 3
+          }
+        ],
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      },
+      {
+        "name": "Inflict Ontological Parasite",
+        "activation": "Invade",
+        "detail": "<div><strong>Boarding Command: Echopraxic Imago [Tactic, Tenacity 10, Range 5-3]</strong></div><div>Choose a range band. Until the end of its next turn, the boarded battlegroup’s attack rolls against targets in that range band have a 50 percent chance to miss outright before the attack is made. Roll a die or flip a coin to determine if the attack misses. This does not stack with Defensive Screen; the defender chooses which effect to apply. Additionally, the boarded  battlegroup cannot choose that range band for abilities that affect or target specific ranges.</div>",
+        "pilot": false,
+        "range": [
+          {
+            "type": "Range",
+            "val": 5
+          },
+          {
+            "type": "Threat",
+            "val": 3
+          }
+        ],
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ]
+  },
+  {
+    "id": "IDodge",
+    "name": "Impossible Dodge",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Legionspace, Reloading 3, Unique</strong></div><div>During the Logistics Phase, you may choose one of your ships. The use of sudden counterfactual positioning “removes that ship from play” until the end of your next turn. While removed from play it:</div><div>• can’t be targeted by attacks and effects or take damage</div><div>• can’t use any weapons, upgrades, or traits</div><div>• doesn’t provide any other benefits to your battlegroup, including INTERDICTION bonuses</div><div>• automatically evades all active PAYLOAD attacks that reach 0 Flight Counters during the same Logistics Phase as this system was used.</div><div>AREA-TARGET PAYLOAD attacks deal damage to the other ships in the battlegroup as normal.</div>",
+    "type": "System",
+    "sp": "1",
+    "description": "<div>No ship can move like that!</div>",
+    "tags": [
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      },
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 3
+      }
+    ]
+  },
+  {
+    "id": "PDS",
+    "name": "Power Distribution Systems",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Unique</strong></div><div>Gain the <strong>Divert Power to Defenses</strong> and <strong>Divert Power to Weapons</strong> tactics:</div>",
+    "type": "System",
+    "sp": "1",
+    "description": "<div>Advanced PD systems are managed by officers working in concert with a legion partition to distribute power across an active ship far more efficiently than purely automated systems. The benefits allow for greater moment-to-moment prioritization of ship power as needed, whether for offensive or defensive purposes.</div>",
+    "tags": [
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Divert Power to Defenses",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic, Reloading 2</strong></div><div>Add 1 Charge Counter to a CHARGE weapon in your battlegroup. The ship equipped with that weapon gains +2 Defense and your battlegroup gains +1d6 Interdiction until the end of your next turn.</div>",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      },
+      {
+        "name": "Divert Power to Weapons",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic, Limited 1</strong></div><div>You shunt power from a ship’s defenses straight into weapon systems. Remove 1 Charge Counter from a CHARGE weapon in your battlegroup, but all attacks against the ship equipped with that weapon gain +1 ACCURACY and damage reduction from Interdiction applied to that ship is only half as effective (requiring 2 Interdiction to prevent 1 damage) until the end of your next turn.</div>",
+        "cost": "1",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Divert Power to Defenses Tracker",
+        "type": "Tracker",
+        "detail": "<div>Tracks Reloading counters for Divert Power to Defenses as Heat</div>",
+        "size": 1,
+        "activation": "Free",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": "0",
+        "armor": "0",
+        "hp": "0",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "2",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      },
+      {
+        "name": "Divert Power to Weapons Tracker",
+        "type": "Tracker",
+        "detail": "<div>Tracks limited for Divert Power to Weapons as HP</div>",
+        "size": 1,
+        "activation": "Free",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": "0",
+        "armor": "0",
+        "hp": "1",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ],
+    "counters": [
+      {
+        "id": "DPtD",
+        "name": "Divert Power to Defenses [Reloading 2]",
+        "default_value": "2",
+        "max": "2",
+        "min": "0"
+      }
+    ]
+  },
+  {
+    "id": "ACogHypfract",
+    "name": "Anticognition Hyperfractal",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Legionspace, Reloading 3, Unique</strong></div><div>During the Logistics Phase, you may add 1 Flight Counter to up to two active hostile PAYLOAD attacks. A hostile battlegroup with PAYLOAD attacks affected by this may ignore it by taking 3 AREA-TARGET damage per Flight Counter negated. This damage cannot be interdicted. If the effect on one or both PAYLOAD attacks is ignored, immediately remove 1 Refresh Counter from this system.</div>",
+    "type": "System",
+    "sp": "2",
+    "description": "<div>Your fleet legion pierces the enemy legion’s manifold ego barriers, implanting a germ of anticognitive thought. It blooms and grows endlessly, disrupting simul-neural pathways and creating  excited hyperfractal redundancy loops. With the right effort, the enemy gestalt will begin to fragment and cascade – just as planned.</div>",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 3
+      },
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ]
+  },
+  {
+    "id": "LegionspaceCoord",
+    "name": "Legionspace Coordinator",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Legionspace, Unique</strong></div><div>Gain the Exploit Positioning maneuver.</div>",
+    "type": "System",
+    "sp": "2",
+    "description": "<div>A legionspace coordinator is an organic human officer that acts as a liaison between the fleet legion and battlegroup commanders, distributing the legion’s recommendations to their commanding officers as quickly as possible. Such coordinators tend to have extensive backgrounds in NHP research, engineering, and sociology.</div>",
+    "tags": [
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      },
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 3
+      }
+    ],
+    "actions": [
+      {
+        "name": "Exploit Positioning",
+        "activation": "Full",
+        "detail": "<div><strong>Maneuver, Reloading 3</strong></div><div>Nominate an allied battlegroup. It may take an additional maneuver on its player’s next turn.</div>",
+        "cost": "3",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ]
+  },
+  {
+    "id": "Aurora",
+    "name": "Aurora Stealth Shrouding",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Unique</strong></div><div>Whenever your battlegroup moves or is moved two or more range bands during a round, you immediately become BOLSTERED until the start of the next Action Phase. If you are already BOLSTERED, you may clear LOCK ON from a CAPITAL SHIP in your battlegroup instead. Additionally, gain the Whiteout maneuver and Thermal Spoofing tactic</div>",
+    "type": "System",
+    "sp": "3",
+    "description": "<div>“Stealth” in a naval context is largely a matter of inverse thermal concealment; combat-ready ships simply cannot hope to conceal their heat signatures from enemy detection, and attempting to minimize heat emissions through internal sink storage results in crews being cooked alive. As such, effective concealment involves the emission of thermal plumes via ejected waste heat mediums or the unfurling of enormous spools of conductive nanocarbon filaments to act as radiator arrays. This massive heat output prevents enemy sensors from maintaining positive-target identification and allows shrouded vessels to effectively maneuver while masking their true positions.</div>",
+    "tags": [
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Whiteout",
+        "activation": "Full",
+        "detail": "<div><strong>Maneuver, Limited 1</strong></div><div>Your battlegroup may fall back or advance one range band and is then obscured by a massive flare of thermal energy that blinds enemy sensors. While obscured, your battlegroup and its ships: </div><div>• can’t be targeted by attacks and effects or take damage</div><div>• can’t use any weapons, upgrades, or traits</div><div>• don’t provide any other benefits</div><div>Your battlegroup continues to add and remove counters during the Logistics Phase as normal. Payload attacks targeting your battlegroup or ships during this time cannot go below 1  Flight Counter by any means.</div><div>Your battlegroup reappears during the next Impact Phase after all other battlegroups have chosen targets and rolled to hit. You may then choose targets and roll to hit with any ready CHARGE weapons. The damage from your CHARGE weapons is applied before any other damage is rolled. If this is enough to destroy a hostile ship, it is destroyed before it can fire its own CHARGE weapons and its damage and any other effects are negated. The ship equipped with this upgrade then takes 1d6 damage from thermal overload that ignores OVERSHIELD and cannot be prevented in any way.</div>",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      },
+      {
+        "name": "Thermal Spoofing",
+        "activation": "Quick",
+        "detail": "<div>Tactic, Limited 2, Reloading 2</div><div>Choose up to two of the following effects:</div><div>• Clear LOCK ON from a CAPITAL SHIP in your battlegroup or from an allied CAPITAL SHIP in the same range band.</div><div>• Add 1 Flight Counter to an active PAYLOAD attack targeting your battlegroup or any of your ships.</div><div>• All single-target attacks against a single CAPITAL SHIP in your battlegroup receive +1 DIFFICULTY until the end of your next turn.</div>",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Whiteout Tracker",
+        "type": "Tracker",
+        "detail": "<div>Tracks limited charges for Whiteout maneuver as HP</div>",
+        "size": 1,
+        "activation": "",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": "1",
+        "cost": "0",
+        "armor": "0",
+        "hp": "1",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      },
+      {
+        "name": "Thermal Spoofing Tracker",
+        "type": "Tracker",
+        "detail": "<div>Tracks Limited as HP and Reloading as Heatcap for the Thermal Spoofing Tactic</div>",
+        "size": 1,
+        "activation": "",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": "0",
+        "armor": "0",
+        "hp": "2",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "2",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ],
+    "counters": [
+      {
+        "id": "Whiteout",
+        "name": "Whiteout Limited 1",
+        "min": "0",
+        "max": "1",
+        "default_value": "1"
+      },
+      {
+        "id": "ThermSpoofLim",
+        "name": "Thermal Spoofing Limited 2",
+        "min": "0",
+        "max": "2",
+        "default_value": "2"
+      },
+      {
+        "id": "ThermSpoofRel",
+        "name": "Thermal Spoofing Reloading 2",
+        "min": "0",
+        "max": "2",
+        "default_value": "2"
+      }
+    ]
+  },
+  {
+    "id": "SubaltComCrew",
+    "name": "Subaltern Combat Crews",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Reloading 3, Unique</strong></div><div>You may use an additional Tactic during your turn.</div>",
+    "type": "System",
+    "sp": "2",
+    "description": "<div>A certain percentage of most naval crews are comprised of subalterns by default, their resilient nature, immunity to hazards like decompression and hard vacuum, and NHP platform-compatibility making them valuable additions to any vessel. A much more significant portion of your fleet’s crew consists of subalterns, however, increasing the speed and efficiency of all combat operations. Such crews have a noted tendency to be more vulnerable to command chain disruption and systemic attacks, drawbacks that keep the practice from being more widely standardized.</div>",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 3
+      },
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ]
+  },
+  {
+    "id": "SScreen",
+    "name": "Smartscreen",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System</strong></div><div>This ship is orbited by a screen of baffler drones. The first single-target attack made against it each round receives +1 DIFFICULTY</div>",
+    "type": "System",
+    "sp": "1",
+    "description": "<div>Smartscreens use physical-presence spoof and baffle drones to interrupt enemy smart and guided weapons along with hostile targeting systems, layering additional defensive measures to ensure vessel survival. Repeated assaults are capable of overwhelming the screen’s defensive countermeasures, forcing commanders to remain mindful of the system’s limitations.</div>"
+  },
+  {
+    "id": "BspaceCIC",
+    "name": "Battlespace CIC",
+    "source": "SSC",
+    "license": "",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Legionspace, Unique</strong></div><div>When you assign FRIGATES to a Defensive Screen, you may assign them to allied battlegroups in the range band either directly ahead of you or directly behind you. Additionally, gain the <strong>Adjust Bearing</strong> maneuver and <strong>Coordinated Impact</strong> tactic:</div>",
+    "type": "System",
+    "sp": "3",
+    "description": "<div>Developed as a joint venture between Harrison Armory’s Think Tank and Smith-Shimano’s Ontologics &amp; Cosubjectvity Research Campus, Battlespace is a next-generation command information center architecture that allows for more efficient and agile information flow between fleet legions and human bridge elements. Though complete 1–1 human/legion cosubjectivity remains an as yet elusive goal, this development represents a significant step forward in full-spectrum fleet command capability.</div>",
+    "actions": [
+      {
+        "name": "Adjust Bearing",
+        "activation": "Full",
+        "detail": "<div><strong>Maneuver, Reloading 2</strong></div><div>Your battlegroup may fall back or advance one range band, and you may move an allied battlegroup back or forward one range band. If you use this maneuver at Range 5-3, you may also LOCK ON to a hostile CAPITAL SHIP or ESCORT.</div>",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      },
+      {
+        "name": "Coordinated Impact",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic, Limited 2, Reloading 2</strong></div><div>Choose one:</div><div>• Add or remove 1 Flight Counter from up to two of your active PAYLOAD attacks or those belonging to allied battlegroups.</div><div>• Choose two weapons belonging to you or allied battlegroups and extend their maximum and minimum ranges by 1 for their next attack (for example, a weapon with Range 4-2 would have Range 5-1). This effect does not stack.</div>",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Adjust Bearing Tracker",
+        "type": "Tracker",
+        "detail": "<div>Reloading as Heatcap for the Adjust Bearing Maneuver</div>",
+        "size": 1,
+        "activation": "",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": "0",
+        "armor": "0",
+        "hp": "0",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "2",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      },
+      {
+        "name": "Coordinated Impact Tracker",
+        "type": "Tracker",
+        "detail": "<div>Tracks Limited as HP and Reloading as Heatcap for the Coordinated Impact Tactic</div>",
+        "size": 1,
+        "activation": "Free",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": "0",
+        "armor": "0",
+        "hp": "2",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "2",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ],
+    "counters": [
+      {
+        "id": "AdjBearRel",
+        "name": "Adjust Bearing Reloading 2",
+        "min": "0",
+        "max": "2",
+        "default_value": "2"
+      },
+      {
+        "id": "CoordImpRel",
+        "name": "Coordinated Impact Reloading 2",
+        "min": "0",
+        "max": "2",
+        "default_value": "2"
+      },
+      {
+        "id": "CoordImpLim",
+        "name": "Coordinated Impact Limited 2",
+        "min": "0",
+        "max": "2",
+        "default_value": "2"
+      }
+    ]
+  },
+  {
+    "id": "Sandstorm",
+    "name": "\"Sandstorm\" Vanguard",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>System, Unique</strong></div><div>Your battlegroup gains +2 INTERDICTION, and the slingshot maneuver and Lithoscreen tactic:</div>",
+    "type": "System",
+    "sp": "3",
+    "description": "<div>An unorthodox (but not unheard of) naval combat tactic is the use of shepherded asteroids and other loose debris as both improvised weapons and defensive measures. There are certain advantages to employing such “unsophisticated” armaments, namely complete immunity to electronic/systemic subversion as well as a minimal sensor profile. When sufficiently accelerated, even asteroids can cause as much damage as conventional munitions. Such tactics are more commonly employed by smaller or less advanced naval powers as a cost-effective substitute for capital-grade ordnance and shielding, but larger polities have also been known to utilize them from time to time.</div>",
+    "tags": [
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Slingshot",
+        "activation": "Full",
+        "detail": "<div>Your battlegroup may advance one range band forward, after which you lob a group of asteroids at a hostile CAPITAL SHIP. This counts as an attack using the following profile:</div><div><strong>SUPERHEAVY, SINGLE/AREA-TARGET, PAYLOAD</strong></div><div>Range 3–0, 10 single-target damage + 4 area-target damage</div><div>Interdiction against this attack is applied to its AREA-TARGET damage first. This attack ignores hostile effects and abilities that add or remove Flight Counters or destroy Payload attacks.</div><div>On hit, this attack erupts into a dangerous cloud of debris that lasts until the start of the next Logistics Phase. For this duration, the next time the target battlegroup would use an ability or effect that forces you or an allied battlegroup to move, it takes 2d6 AREA-TARGET damage and all of its single-target attack rolls receive +1 DIFFICULTY until the end of its next turn.</div>",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      },
+      {
+        "name": "Lithoscreen",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic, Limited 2, Reloading 2</strong></div><div>One Capital Ship in your battlegroup gains 5 OVERSHIELD. The next time a hostile CAPITAL SHIP, ESCORT, or WING reduces this OVERSHIELD to 0 during the Action Phase, the attacker takes 3 damage.</div>",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Slingshot Payload",
+        "type": "Payload",
+        "detail": "<div>Set HP to payload counters</div><div><strong>SUPERHEAVY, SINGLE/AREA-TARGET, PAYLOAD</strong></div><div>Range 3–0, 10 single-target damage + 4 area-target damage</div><div>Interdiction against this attack is applied to its AREA-TARGET damage first. This attack ignores hostile effects and abilities that add or remove Flight Counters or destroy Payload attacks.</div><div>On hit, this attack erupts into a dangerous cloud of debris that lasts until the start of the next Logistics Phase. For this duration, the next time the target battlegroup would use an ability or</div><div>effect that forces you or an allied battlegroup to move, it takes 2d6 AREA-TARGET damage and all of its single-target attack rolls receive +1 DIFFICULTY until the end of its next turn</div>",
+        "size": 1,
+        "activation": "Full",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "3",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      },
+      {
+        "name": "Slingshout Debris Cloud",
+        "type": "Effect",
+        "detail": "<div>On hit, this attack erupts into a dangerous cloud of debris that lasts until the start of the next Logistics Phase. For this duration, the next time the target battlegroup would use an ability or</div><div>effect that forces you or an allied battlegroup to move, it takes 2d6 AREA-TARGET damage and all of its single-target attack rolls receive +1 DIFFICULTY until the end of its next turn.</div>",
+        "size": 1,
+        "activation": "Free",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": null,
+        "hp": "0",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      },
+      {
+        "name": "Lithoscreen Counter",
+        "type": "Tracker",
+        "detail": "<div>Tracks Limited as HP and Reloading as Heatcap for the Lithoscreen Tactic</div>",
+        "size": 1,
+        "activation": "Free",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": "0",
+        "armor": "0",
+        "hp": "2",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "2",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ],
+    "counters": [
+      {
+        "id": "SlingshotLim",
+        "name": "Slingshot Limited 1",
+        "min": "0",
+        "max": "1",
+        "default_value": "1"
+      },
+      {
+        "id": "LithoscreenLim",
+        "name": "Lithoscreen Limited 2",
+        "min": "0",
+        "max": "2",
+        "default_value": "2"
+      },
+      {
+        "id": "LithoscreenRel",
+        "name": "Lithoscreen Reloading 2",
+        "min": "0",
+        "max": "2",
+        "default_value": "2"
+      }
+    ]
+  },
+  {
+    "id": "Marine",
+    "name": "Marine Landers",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>Escort, Boarding</strong></div><div><strong>[Range 3–0][Tenacity 10]</strong></div>",
+    "type": "Deployable",
+    "sp": "",
+    "description": "<div>The design of marine boarding vessels has changed little in the last 100 years of naval warfare. Minimally armed and moderately armored, built for speed and carrying capacity, these craft are  solely designed to make contact with enemy ships and breach their outer hulls to allow their passengers to begin the perilous task of boarding actions. Veteran marines have a wealth of colorful nicknames for these ships, few of which are fit for polite company.</div>",
+    "deployables": [
+      {
+        "name": "Marine Landers",
+        "type": "Boarding",
+        "detail": "<div><strong>Escort, Boarding</strong></div><div><strong>[Range 3–0][Tenacity 10]</strong></div>",
+        "size": 1,
+        "activation": "Quick",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "0",
+        "evasion": "10",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ]
+  },
+  {
+    "id": "Corvette",
+    "name": "Corvette Escort",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>Escort</strong></div><div>Designating targets for close fire support allows these escorts to rapidly track and engage them. 1/round when you LOCK ON to a ship within Range 3–0 you may deal 1 damage to it for each of these ESCORTS in your battlegroup, to a maximum of 4 damage. Additionally, gain the Corvette Command tactic:</div>",
+    "type": "Drone",
+    "sp": "1",
+    "description": "<div>Corvettes operate in small squadrons, fulfilling lighter-than/heavier-than duties that some fleet commanders prefer for versatility. The smallest subline vessels in use, corvettes are often tasked with fire support and targeted strike operations in a gunship-equivalent role.</div>",
+    "actions": [
+      {
+        "name": "Corvette Command",
+        "activation": "Quick",
+        "detail": "<div>Tactic [Range 3–0]</div><div>Choose one CORVETTE ESCORT assigned to your battlegroup and give it one of these commands:</div><div>• Trade Blows: Deal 2 damage to a hostile Wing, or deal 4 damage to a hostile CAPITAL SHIP and take 2 damage in return.</div><div>• Defensive Formation: Gain +2 Interdiction until the start of your next turn.</div><div>• Gun Run (Limited 1): Deal 2 AREA-TARGET damage to a hostile battlegroup. Consuming LOCK ON from CAPITAL SHIPS or ESCORTS in that battlegroup increases this to 4 damage against those specific ships. This damage cannot be interdicted.</div>",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Corvette Escort",
+        "type": "Escort",
+        "detail": "<div><strong>Escort</strong></div><div>Designating targets for close fire support allows these escorts to rapidly track and engage them. 1/round when you LOCK ON to a ship within Range 3–0 you may deal 1 damage to it for each of these ESCORTS in your battlegroup, to a maximum of 4 damage. Additionally, gain the Corvette Command tactic: </div><div><strong>Tactic </strong></div><div><strong>[Range 3-0]</strong></div><div>Choose one CORVETTE ESCORT assigned to your battlegroup and give it one of these commands:</div><div>• Trade Blows: Deal 2 damage to a hostile Wing, or deal 4 damage to a hostile CAPITAL SHIP and take 2 damage in return.</div><div>• Defensive Formation: Gain +2 Interdiction until the start of your next turn.</div><div>• Gun Run (Limited 1): Deal 2 AREA-TARGET damage to a hostile battlegroup. Consuming LOCK ON from CAPITAL SHIPS or ESCORTS in that battlegroup increases this to 4 damage against those specific ships. This damage cannot be interdicted.</div>",
+        "size": 1,
+        "activation": "Quick",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "6",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ],
+    "counters": [
+      {
+        "id": "GunRunLim",
+        "name": "Gun Run Limited 1",
+        "min": "0",
+        "max": "1",
+        "default_value": "1"
+      }
+    ]
+  },
+  {
+    "id": "Subline",
+    "name": "Subline Pickets",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div>These special ships are tasked with scouting the battlefield, and have already taken up their position prior to the engagement. 1/round, you or an ally of your choice may add +1 ACCURACY to a single-target attack</div>",
+    "type": "Deployable",
+    "sp": "2",
+    "description": "<div>Sleek, fast, and minimally armed, subline picket ships scout the predicted battlefield days before capital ships arrive, running silent and cold to avoid enemy sensors. Picket postings are lonely and seldom comfortable, operating on minimal power and under communications blackout protocols for extended durations, but once combat begins the data they feed captains on enemy  positioning, numbers, direction, and trajectory can be crucial to a fleet’s success.</div>",
+    "deployables": [
+      {
+        "name": "Subline Pickets",
+        "type": "Escort",
+        "detail": "<div>These special ships are tasked with scouting the battlefield, and have already taken up their position prior to the engagement. 1/round, you or an ally of your choice may add +1 ACCURACY to a single-target attack.</div>",
+        "size": 1,
+        "activation": "Free",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "0",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ]
+  },
+  {
+    "id": "Destroyer",
+    "name": "Destroyer Escort",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>Escort</strong></div><div>The pulse lances, kinetic guns, or missile batteries carried by this ESCORT count as an AUXILIARY weapon for your battlegroup. When fired alongside any PRIMARY single-target weapon  targeting a CAPITAL SHIP or ESCORT within Range 3–0, these weapons deal 2 damage to that same target.</div><div>Additionally, gain the Destroyer Command tactic.</div>",
+    "type": "Drone",
+    "sp": "2",
+    "description": "<div>Sleek, fast, and outfitted with powerful weapons sufficient to threaten both capital ships and other subline vessels alike, destroyer designs often sacrifice as many nonessential functions as possible to maximize their effective firepower. Destroyers typically operate in wolfpacks, prowling the perimeter of engagements on the lookout for opportunities to strike at a fleet’s exposed flanks.</div>",
+    "actions": [
+      {
+        "name": "Destroyer Command",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic </strong></div><div><strong>[Range 3–0]</strong></div><div>Choose one DESTROYER assigned to your battlegroup and give it one of the following commands:</div><div>• Cannonade: Deal 3 damage to a hostile CAPITAL SHIP.</div><div>• Snapflight Torpedoes: Deal 6 damage to a hostile ESCORT.</div><div>• Encirclement (Limited 1): Advance or fall back one range band. You may not use this command if you have used an effect or ability to move this turn, and after using it you may not move again this turn.</div>",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Destroyer Escort",
+        "type": "Escort",
+        "detail": "<div><strong>Escort</strong></div><div>The pulse lances, kinetic guns, or missile batteries carried by this ESCORT count as an AUXILIARY weapon for your battlegroup. When fired alongside any PRIMARY single-target weapon targeting a CAPITAL SHIP or ESCORT within Range 3–0, these weapons deal 2 damage to that same target. Additionally, gain the Destroyer Command tactic.</div><div><strong>DESTROYER COMMAND</strong></div><div><strong>Tactic </strong>[Range 3–0]</div><div>Choose one DESTROYER assigned to your battlegroup and give it one of the following commands:</div><div>• Cannonade: Deal 3 damage to a hostile CAPITAL SHIP.</div><div>• Snapflight Torpedoes: Deal 6 damage to a hostile ESCORT.</div><div>• Encirclement (Limited 1): Advance or fall back one range band. You may not use this command if you have used an effect or ability to move this turn, and after using it you may not move again this turn.</div>",
+        "size": 2,
+        "activation": "Quick",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "8",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ],
+    "counters": [
+      {
+        "id": "EncircLim",
+        "name": "Encirclement Limited 1",
+        "min": "0",
+        "max": "1",
+        "default_value": "1"
+      }
+    ]
+  },
+  {
+    "id": "POutrider",
+    "name": "Payload Outrider Escort",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>Escort</strong></div><div>This special ESCORT accompanies launched munitions, clearing the way for them to safely and accurately strike their targets. When you or an allied battlegroup in the same range band makes a PAYLOAD attack, you may assign this squadron to accompany that attack. If more than one PAYLOAD attack is fired at a time, choose one to accompany. Each PAYLOAD attack can only be accompanied by a single PAYLOAD OUTRIDER ESCORT.</div><div>An accompanied PAYLOAD attack cannot have Flight Counters added to it from hostile effects or abilities. During the Impact Phase, add +1 damage to that attack for each Flight Counter removed from it before impact. You may also force the target battlegroup to reroll 1 Interdiction die of your choice and take the worst result; however, if this attack’s damage is completely interdicted, then this ESCORT is destroyed as well.</div>",
+    "type": "Deployable",
+    "sp": "2",
+    "description": "<div>Subline outriders are frequently tasked with escorting payloads across space, ensuring their uncontested delivery to the target. These units provide a mixture of physical point-defense coverage as well as immediate-response electronic protective measures and adaptive course corrections to both safeguard payloads in transit and help guarantee optimal impact, though this often places them in harm’s way far from the protection of other ships in their fleet.</div>",
+    "deployables": [
+      {
+        "name": "Payload Outrider Escort",
+        "type": "Escort",
+        "detail": "<div><strong>Escort</strong></div><div>This special ESCORT accompanies launched munitions, clearing the way for them to safely and accurately strike their targets. When you or an allied battlegroup in the same range band makes a PAYLOAD attack, you may assign this squadron to accompany that attack. If more than one PAYLOAD attack is fired at a time, choose one to accompany. Each PAYLOAD attack can only be accompanied by a single PAYLOAD OUTRIDER ESCORT.</div><div>An accompanied PAYLOAD attack cannot have Flight Counters added to it from hostile effects or abilities. During the Impact Phase, add +1 damage to that attack for each Flight Counter removed from it before impact. You may also force the target battlegroup to reroll 1 Interdiction die of your choice and take the worst result; however, if this attack’s damage is completely interdicted, then this ESCORT is destroyed as well.</div>",
+        "size": 1,
+        "activation": "Free",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "0",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ]
+  },
+  {
+    "id": "PGR_Gourd",
+    "name": "PGR_Gourd Limpets",
+    "source": "HORUS",
+    "license": "",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>Escort, Boarding, Greywash [Tenacity 10]</strong></div><div>These limpet pods can only be used to perform the <strong>PGR_Gourd Command</strong> tactic.</div>",
+    "type": "Deployable",
+    "sp": "2",
+    "description": "<div>PGR_Gourd limpets are terribly cruel nanite weapons, likely created and propagated by HORUS cells. After attaching to an enemy vessel, the limpets disgorge liters of “greywash” into their targets. These nanite washes tear through the open spaces inside of capital ships, consuming organic and soft inorganic material, eliminating the enemy without firing a shot. All that is left after a greywash burnout is a brownish-red slurry of processed waste material, empty hardsuits, and dead nanites.</div>",
+    "actions": [
+      {
+        "name": "PGR_Gourd Command",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic [Range 3-0]</strong></div><div>You deploy PGR_Gourd Limpets toward a hostile Capital Ship as a boarding action. During the Boarding Phase, these limpets disgorge their contents into the ship and you give them one of the following commands:</div><div>• CONSUME: Apply 3 Greywash Counters to the boarded ship on a successful boarding roll, or 1 Greywash Counter on a failure. Spending a maneuver to clear Greywash Counters also</div><div>repels this unit as well. This boarding action can stack with itself.</div><div>• SURGE (Limited 1): Double the number of Greywash Counters on the boarded ship. If this boarding action fails, you do not expend this command’s LIMITED use.</div>",
+        "pilot": false,
+        "range": [
+          {
+            "type": "Range",
+            "val": 3
+          }
+        ],
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ],
+    "deployables": [
+      {
+        "name": "PGR_Gourd Limpets",
+        "type": "Boarding",
+        "detail": "<div><strong>Escort, Boarding, Greywash [Tenacity 10]</strong></div><div>These limpet pods can only be used to perform the <strong>PGR_Gourd Command</strong> tactic.</div><div><strong>Tactic [Range 3-0]</strong></div><div>You deploy PGR_Gourd Limpets toward a hostile Capital Ship as a boarding action. During the Boarding Phase, these limpets disgorge their contents into the ship and you give them one of the following commands:</div><div>• CONSUME: Apply 3 Greywash Counters to the boarded ship on a successful boarding roll, or 1 Greywash Counter on a failure. Spending a maneuver to clear Greywash Counters also</div><div>repels this unit as well. This boarding action can stack with itself.</div><div>• SURGE (Limited 1): Double the number of Greywash Counters on the boarded ship. If this boarding action fails, you do not expend this command’s LIMITED use.</div>",
+        "size": 1,
+        "activation": "",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "0",
+        "evasion": "10",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ],
+    "counters": [
+      {
+        "id": "SURGELim",
+        "name": "SURGE Limited 1",
+        "min": "0",
+        "max": "1",
+        "default_value": "1"
+      }
+    ]
+  },
+  {
+    "id": "Minelayers",
+    "name": "Minelayers",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>Escort, Reloading 2</strong></div><div>This special ESCORT is tasked with deploying minefields. During the Logistics Phase you may order it to deploy minefields in the range band either directly ahead of you or directly behind you. Until the start of the next Logistics Phase, the first time a hostile battlegroup forces you or an allied battlegroup to move into or out of that range band, the mines detonate and the hostile battlegroup takes 10 AREA-TARGET damage. Due to sheer saturation, this cannot be reduced below 2 area damage by Interdiction.</div><div>Minefields cannot stack with themselves.</div>",
+    "type": "Deployable",
+    "sp": "2",
+    "description": "<div>The term “mines” is a bit of a misnomer in the context of naval combat operations.Rather than stationary defensive emplacements, naval mines are more akin to missiles, seeded in clouds across anticipated approach vectors to maximize the odds of terminal contact. Mines loiter in a low-power state until their sensors detect hostile vessels in proximity, at which point they activate and home in on the nearest target at full burn. Most naval vessels do not carry mines as part of their standard ordnance loadout, delegating minelaying duties to specialized subline vessels instead.</div>",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 2
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Minefield",
+        "type": "Escort",
+        "detail": "<div><strong>Escort, Reloading 2</strong></div><div>This special ESCORT is tasked with deploying minefields. During the Logistics Phase you may order it to deploy minefields in the range band either directly ahead of you or directly behind you. Until the start of the next Logistics Phase, the first time a hostile battlegroup forces you or an allied battlegroup to move into or out of that range band, the mines detonate and the hostile battlegroup takes 10 AREA-TARGET damage. Due to sheer saturation, this cannot be reduced below 2 area damage by Interdiction.</div><div>Minefields cannot stack with themselves.</div>",
+        "size": 1,
+        "activation": "Protocol",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": "2",
+        "armor": "0",
+        "hp": "0",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ]
+  },
+  {
+    "id": "PIPECLEANER",
+    "name": "PIPECLEANER Subalterns",
+    "source": "IPS-N",
+    "license": "",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>Escort, Boarding</strong></div><div><strong>[Range 3-0][Tenacity 12]</strong></div><div>These fearsome combat subalterns can infiltrate and sabotage areas of a ship that would be hazardous or inaccessible for humans, such as the power storage systems for long-spool weapons. When this unit succeeds on Sabotage Fire Control against a ship with one or more CHARGE weapons, that ship must also choose one: add 1 Charge Counter to a Charge weapon of your choice or take 5 damage. A boarded ship can only suffer from this effect 1/round. Whenever a boarded ship fails a roll to repel this unit, the ship takes 2 damage.</div>",
+    "type": "Deployable",
+    "sp": "2",
+    "description": "<div>PIPECLEANER subalterns, part of IPS-N’s Warfighter line, are commonly inserted into enemy ships at dangerous, unconventional breach-points. They can be remotely controlled by a human handler but are more often commanded by a projected NHP partition controlling a networked squad as a single unit. Humanoid in appearance, they are built with many more points of articulation along with secondary bladed appendages for activity in close, low or null-g environments. In combat, they act with frightening, uncanny speed and movements.</div>",
+    "deployables": [
+      {
+        "name": "PIPECLEANER Subalterns",
+        "type": "Boarding",
+        "detail": "<div><strong>Escort, Boarding</strong></div><div><strong>[Range 3-0][Tenacity 12]</strong></div><div>These fearsome combat subalterns can infiltrate and sabotage areas of a ship that would be hazardous or inaccessible for humans, such as the power storage systems for long-spool weapons. When this unit succeeds on Sabotage Fire Control against a ship with one or more CHARGE weapons, that ship must also choose one: add 1 Charge Counter to a Charge weapon of your choice or take 5 damage. A boarded ship can only suffer from this effect 1/round. Whenever a boarded ship fails a roll to repel this unit, the ship takes 2 damage.</div>",
+        "size": 1,
+        "activation": "",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "0",
+        "evasion": "12",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ]
+  },
+  {
+    "id": "Cruiser",
+    "name": "Cruiser Escort",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>Escort</strong></div><div>When a hostile battlegroup forces your battlegroup or an allied battlegroup in the same range band to fall back or move forward any number of range bands, you may have this ESCORT deploy a field of seeker mines that deal 4 damage to a CAPITAL SHIP or ESCORT of your choice in that battlegroup. You may use this ability 1/round for each CRUISER ESCORT in your battlegroup, but only once per instance of hostile movement. Additionally, gain the Cruiser Command tactic.</div>",
+    "type": "Drone",
+    "sp": "3",
+    "description": "",
+    "actions": [
+      {
+        "name": "Cruiser Command",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic [Range 3–0]</strong></div><div>Choose one CRUISER assigned to your battlegroup and give it one of the following commands:</div><div>• Fire at Will: Deal 4 damage to a hostile CAPITAL SHIP. You may also deal 2 AREA-TARGET damage to all ESCORTS in that ship’s battlegroup and take 2 damage in return. This</div><div>damage cannot be interdicted.</div><div>• Defensive Gunnery: Gain +3 Interdiction until the start of your next turn.</div><div>• Local Kill Screen (Limited 1): Deal 5 damage to a hostile CAPITAL SHIP or ESCORT, deal 2 damage to all of that ship’s WINGS, and that ship makes all single-target attacks with +1 DIFFICULTY until the end of its next turn.</div>",
+        "pilot": false,
+        "range": [
+          {
+            "type": "Range",
+            "val": 3
+          }
+        ],
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Cruiser Escort",
+        "type": "Escort",
+        "detail": "<div><strong>Escort</strong></div><div>When a hostile battlegroup forces your battlegroup or an allied battlegroup in the same range band to fall back or move forward any number of range bands, you may have this ESCORT deploy a field of seeker mines that deal 4 damage to a CAPITAL SHIP or ESCORT of your choice in that battlegroup. You may use this ability 1/round for each CRUISER ESCORT in your battlegroup, but only once per instance of hostile movement. Additionally, gain the Cruiser Command tactic.</div><div><strong>Cruiser Command</strong></div><div><strong>Tactic [Range 3–0]</strong></div><div>Choose one CRUISER assigned to your battlegroup and give it one of the following commands:</div><div>• Fire at Will: Deal 4 damage to a hostile CAPITAL SHIP. You may also deal 2 AREA-TARGET damage to all ESCORTS in that ship’s battlegroup and take 2 damage in return. This</div><div>damage cannot be interdicted.</div><div>• Defensive Gunnery: Gain +3 Interdiction until the start of your next turn.</div><div>• Local Kill Screen (Limited 1): Deal 5 damage to a hostile CAPITAL SHIP or ESCORT, deal 2 damage to all of that ship’s WINGS, and that ship makes all single-target attacks with +1 DIFFICULTY until the end of its next turn.</div>",
+        "size": 2,
+        "activation": "",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "10",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      },
+      {
+        "name": "Seeker Mines",
+        "type": "Effect",
+        "detail": "<div><strong>Escort</strong></div><div>When a hostile battlegroup forces your battlegroup or an allied battlegroup in the same range band to fall back or move forward any number of range bands, you may have this ESCORT deploy a field of seeker mines that deal 4 damage to a CAPITAL SHIP or ESCORT of your choice in that battlegroup. You may use this ability 1/round for each CRUISER ESCORT in your battlegroup, but only once per instance of hostile movement. Additionally, gain the Cruiser Command tactic.</div>",
+        "size": 1,
+        "activation": "",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "",
+        "hp": "",
+        "evasion": "",
+        "edef": "",
+        "heatcap": "",
+        "repcap": "",
+        "sensor_range": "",
+        "tech_attack": "",
+        "save": "",
+        "speed": "",
+        "pilot": false,
+        "mech": false
+      }
+    ],
+    "counters": [
+      {
+        "id": "LKSLim",
+        "name": "Local Kill Screen Limited 1",
+        "min": "0",
+        "max": "1",
+        "default_value": "1"
+      }
+    ]
+  },
+  {
+    "id": "LegDrone",
+    "name": "Legion Drone Nexus",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>Wing</strong></div><div>1/round, you may order a LEGION DRONE NEXUS in your battlegroup to interpose itself between friendly units and incoming fire. Reduce hostile damage dealt to an ESCORT or WING in your battlegroup or an allied battlegroup in the same range band by 1. This WING then takes 2 damage. Additionally, gain the Legion Command tactic.</div>",
+    "type": "Drone",
+    "sp": "",
+    "description": "",
+    "actions": [
+      {
+        "name": "Legion Command",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic [Range 3–0]</strong></div><div>Choose one LEGION DRONE NEXUS assigned to your battlegroup and give it the following command. As part of this, you may assign another unused LEGION DRONE NEXUS from your battlegroup to join the sortie, giving them the same command. Allied battlegroups in your range band may use this tactic to command your LEGION DRONE NEXUSES as if they were under their control:</div><div>• Hunt/Kill: Deal 1 damage to a hostile CAPITAL SHIP, ESCORT, or WING, or deal 2 damage to a hostile ESCORT or WING and take 2 damage in return.</div>",
+        "pilot": false,
+        "range": [
+          {
+            "type": "Range",
+            "val": 3
+          }
+        ],
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Legion Drone Nexus",
+        "type": "Wing",
+        "detail": "<div><strong>Wing</strong></div><div>1/round, you may order a LEGION DRONE NEXUS in your battlegroup to interpose itself between friendly units and incoming fire. Reduce hostile damage dealt to an ESCORT or WING in your battlegroup or an allied battlegroup in the same range band by 1. This WING then takes 2 damage. Additionally, gain the Legion Command tactic.</div><div><strong>Tactic [Range 3–0]</strong></div><div>Choose one LEGION DRONE NEXUS assigned to your battlegroup and give it the following command. As part of this, you may assign another unused LEGION DRONE NEXUS from your battlegroup to join the sortie, giving them the same command. Allied battlegroups in your range band may use this tactic to command your LEGION DRONE NEXUSES as if they were under their control:</div><div>• Hunt/Kill: Deal 1 damage to a hostile CAPITAL SHIP, ESCORT, or WING, or deal 2 damage to a hostile ESCORT or WING and take 2 damage in return.</div>",
+        "size": 1,
+        "activation": "",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "4",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ]
+  },
+  {
+    "id": "Fighters",
+    "name": "Fighter Wing",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>Wing</strong></div><div>Gain +1 Interdiction for each FIGHTER WING as they maintain combat patrols within your fleet’s perimeter, up to a maximum of +4 Interdiction. Additionally, gain the Fighter Command tactic.</div>",
+    "type": "Drone",
+    "sp": "1",
+    "description": "<div>Fighters are small, multi-purpose, single-pilot ships with a wide combat portfolio, ranging from combat patrols, to subline escort, to ordnance interception. Fighter wings, though outclassed by the raw power of larger ships, are integral units in any battlegroup for their versatility alone.</div>",
+    "actions": [
+      {
+        "name": "Fighter Command",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic [Range 2-0]</strong></div><div>Choose one Fighter Wing assigned to your battlegroup and give it one of the following commands. As part of this, you may assign another unused Fighter Wing from your battlegroup to join the sortie, selecting the same or a different command:</div><div>• Strafing Run: Deal 1 damage to a hostile CAPITAL SHIP or ESCORT.</div><div>• Engage and Eliminate: Deal 3 damage to a hostile WING.</div>",
+        "pilot": false,
+        "range": [
+          {
+            "type": "Range",
+            "val": 2
+          }
+        ],
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Fighter Wing",
+        "type": "Wing",
+        "detail": "<div><strong>Wing</strong></div><div>Gain +1 Interdiction for each FIGHTER WING as they maintain combat patrols within your fleet’s perimeter, up to a maximum of +4 Interdiction. Additionally, gain the Fighter Command tactic.</div><div><strong>Fighter Command</strong></div><div><strong>Tactic [Range 2-0]</strong></div><div>Choose one Fighter Wing assigned to your battlegroup and give it one of the following commands. As part of this, you may assign another unused Fighter Wing from your battlegroup to join the sortie, selecting the same or a different command:</div><div>• Strafing Run: Deal 1 damage to a hostile CAPITAL SHIP or ESCORT.</div><div>• Engage and Eliminate: Deal 3 damage to a hostile WING.</div>",
+        "size": 1,
+        "activation": "",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "5",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ]
+  },
+  {
+    "id": "Bomber",
+    "name": "Bomber Wing",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>Wing</strong></div><div>Gain the Bomber Command and Active Countermeasures tactics.</div>",
+    "type": "Drone",
+    "sp": "2",
+    "description": "<div>Bombers are larger vessels crewed by two to four crewmembers and loaded with anti-capital ordnance that lets them punch far above their weight class. If ignored, a wing of these ships can be as dangerous as a single ship of the line. Bombers are also frequently outfitted with large reserves of defensive countermeasures to help screen their carrier’s advance and during strike operations, including pulse-flares, EMP charges, and decoy signal emitters.</div>",
+    "actions": [
+      {
+        "name": "Bomber Command",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic [Range 2–0]</strong></div><div>Choose one BOMBER WING assigned to your battlegroup and give it the following command:</div><div>• Torpedoes Away: Deal 4 damage to a hostile CAPITAL SHIP. You may assign another unused BOMBER WING from your battlegroup to assist, dealing an additional +2 damage.</div>",
+        "pilot": false,
+        "range": [
+          {
+            "type": "Range",
+            "val": 2
+          }
+        ],
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      },
+      {
+        "name": "Active Countermeasures",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic [Range 4–0]</strong></div><div>Choose one BOMBER WING assigned to your battlegroup and give it the following command:</div><div>• Deploy Chaff (Limited 1): Choose a CAPITAL SHIP in your battlegroup or an allied battlegroup in the same range band. Until the end of your next turn, the next time that ship takes  damage reduce it by 1d3. This effect does not stack.</div>",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Bomber Wing",
+        "type": "Wing",
+        "detail": "<div><strong>Wing</strong></div><div>Gain the Bomber Command and Active Countermeasures tactics.</div><div><strong>Bomber Command</strong></div><div><strong>Tactic [Range 2–0]</strong></div><div>Choose one BOMBER WING assigned to your battlegroup and give it the following command:</div><div>• Torpedoes Away: Deal 4 damage to a hostile CAPITAL SHIP. You may assign another unused BOMBER WING from your battlegroup to assist, dealing an additional +2 damage.</div><div><strong>Active Countermeasures</strong></div><div><strong>Tactic [Range 4–0]</strong></div><div>Choose one BOMBER WING assigned to your battlegroup and give it the following command:</div><div>• Deploy Chaff (Limited 1): Choose a CAPITAL SHIP in your battlegroup or an allied battlegroup in the same range band. Until the end of your next turn, the next time that ship takes damage reduce it by 1d3. This effect does not stack.</div>",
+        "size": 1,
+        "activation": "",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "5",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ],
+    "counters": [
+      {
+        "id": "DChaffLim",
+        "name": "Deploy Chaff Limited 1",
+        "min": "0",
+        "max": "1",
+        "default_value": "1"
+      }
+    ]
+  },
+  {
+    "id": "BalorWing",
+    "name": "Balor Chassis Wing",
+    "source": "HORUS",
+    "license": "",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>Wing, Boarding, Greywash, Unique [Tenacity 12]</strong></div><div>The Balor’s nanoswarm construction allows it to hellishly regenerate physical damage sustained during combat. During the Logistics Phase, this unit repairs 2 HP. Additionally, gain the Balor Command tactic.</div>",
+    "type": "Drone",
+    "sp": "3",
+    "description": "<div>One of the more infamous HORUS pattern-groups, the Balor is a highly resilient chassis that employs frame-integrated, neurosynced “hellswarms” of greywash nanites in both offensive and defensive capacities. First encountered during the latter days of the Sanjak Rebellion under the command of the Maw, a Baronic Free Company turned decentralized hive-being,the Balor enjoys a grim reputation as persistent and intractable danger within Baronic space and beyond, but some ambitious Karrakin commanders in the Dawnline Shore have developed an appreciation for the unique tactical advantages they offer as horrifyingly effective boarding units.</div>",
+    "tags": [
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Balor Command",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic [Range 3-0]</strong></div><div>Give the BALOR CHASSIS WING one of these commands:</div><div>• Nanocomposite Munitions: Deal 2 damage to a hostile ESCORT or WING, or consume LOCK ON from a CAPITAL SHIP to deal 2 damage to that ship, give it 2 Greywash Counters, and take 2 damage in return.</div><div>• Hive Frenzy: Assign this unit to board a hostile CAPITAL SHIP. Each time it succeeds on a boarding roll, the boarded ship gains 2 Greywash Counters. Ships do not remove Greywash Counters during the Impact Phase while this Wing is aboard them.</div>",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Balor Chassis Wing",
+        "type": "Wing",
+        "detail": "<div><strong>Wing, Boarding, Greywash, Unique [Tenacity 12]</strong></div><div>The Balor’s nanoswarm construction allows it to hellishly regenerate physical damage sustained during combat. During the Logistics Phase, this unit repairs 2 HP. Additionally, gain the Balor Command tactic.</div><div><strong>Balor Command</strong></div><div><strong>Tactic [Range 3-0]</strong></div><div>Give the BALOR CHASSIS WING one of these commands:</div><div>• Nanocomposite Munitions: Deal 2 damage to a hostile ESCORT or WING, or consume LOCK ON from a CAPITAL SHIP to deal 2 damage to that ship, give it 2 Greywash Counters, and take 2 damage in return.</div><div>• Hive Frenzy: Assign this unit to board a hostile CAPITAL SHIP. Each time it succeeds on a boarding roll, the boarded ship gains 2 Greywash Counters. Ships do not remove Greywash Counters during the Impact Phase while this Wing is aboard them.</div>",
+        "size": 1,
+        "activation": "",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "8",
+        "evasion": "12",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ]
+  },
+  {
+    "id": "BarbarossaWing",
+    "name": "Barbarossa Chassis Wing",
+    "source": "HA",
+    "license": "",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>Wing, Unique</strong></div><div>The integrated flak launchers and anti-aerospace munitions carried by this WING count as an AUXILIARY weapon for your battlegroup. When fired alongside any PRIMARY single-target weapon targeting a CAPITAL SHIP or ESCORT within Range 3–0, these weapons deal 1 damage to that same target and 3 damage to a hostile WING in the same battlegroup. Additionally, gain the Barbarossa Command tactic.</div>",
+    "type": "Drone",
+    "sp": "3",
+    "description": "<div>Harrison Armory’s Barbarossa heavy siege chassis is an artillery/anti-air frame designed to engage targets in both terrestrial and low-gravity operations. Equipped with an integrated LGC-04 “Apocalypse Rail” gravitic catapult, the Barbarossa can capably engage subline vessels, and in massed volleys can even threaten capital ships. The additional power plants and stabilizers provided by a chassis mount help mitigate the drawbacks of the famously temperamental Apocalypse Rail, allowing for more consistent output while still permitting full zero-g maneuverability.</div>",
+    "tags": [
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Barbarossa Command",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic [Range 3–0]</strong></div><div>Give the BARBAROSSA CHASSIS WING one of these commands:</div><div>• Siege Cannons: Deal 3 damage to a hostile CAPITAL SHIP or ESCORT.</div><div>• Charge Apocalypse Rails (Reloading 2): This Wing begins charging its integrated Apocalypse Rail weapons. During the next Impact Phase, you may order it to open fire on a hostile CAPITAL SHIP or ESCORT within range. Make a single-target attack roll, dealing 2d6 damage on hit with OVERKILL and RELIABLE 4.</div>",
+        "pilot": false,
+        "range": [
+          {
+            "type": "Range",
+            "val": 3
+          }
+        ],
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Barbarossa Chassis Wing",
+        "type": "Wing",
+        "detail": "<div><strong>Wing, Unique</strong></div><div>The integrated flak launchers and anti-aerospace munitions carried by this WING count as an AUXILIARY weapon for your battlegroup. When fired alongside any PRIMARY single-target weapon targeting a CAPITAL SHIP or ESCORT within Range 3–0, these weapons deal 1 damage to that same target and 3 damage to a hostile WING in the same battlegroup. Additionally, gain the Barbarossa Command tactic.</div><div><strong>Barbarossa Command</strong></div><div><strong>Tactic [Range 3–0]</strong></div><div>Give the BARBAROSSA CHASSIS WING one of these commands:</div><div>• Siege Cannons: Deal 3 damage to a hostile CAPITAL SHIP or ESCORT.</div><div>• Charge Apocalypse Rails (Reloading 2): This Wing begins charging its integrated Apocalypse Rail weapons. During the next Impact Phase, you may order it to open fire on a hostile CAPITAL SHIP or ESCORT within range. Make a single-target attack roll, dealing 2d6 damage on hit with OVERKILL and RELIABLE 4.</div>",
+        "size": 1,
+        "activation": "Quick",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "8",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ],
+    "counters": [
+      {
+        "id": "ApocRailRel",
+        "name": "Apocalypse Rail Reloading 2",
+        "min": "0",
+        "max": "2",
+        "default_value": "2"
+      }
+    ]
+  },
+  {
+    "id": "MonarchWing",
+    "name": "Monarch Chassis Wing",
+    "source": "SSC",
+    "license": "",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>Wing, Unique</strong></div><div>The integrated SSC-30 High-Penetration Missile Systems carried by these mechs allow them to coordinate reactive volleys of Avenger micromissiles with other strikes. 1/round whenever a weapon in your battlegroup or an allied battlegroup in the same range band critically hits a target within Range 3–0, even if it doesn’t have the CRITICAL tag, you may use these micromissiles to deal 2 damage to a hostile CAPITAL SHIP, ESCORT, or WING. Additionally, gain the Monarch Command tactic.</div>",
+    "type": "Drone",
+    "sp": "3",
+    "description": "<div>Smith-Shimano’s Monarch is a highly versatile all-theater combat chassis, part of the company’s BELLA CIAO line, created to serve as a multirole missile launch platform. Rigorously designed to exacting standards and surprisingly agile for its size, Monarchs are equipped with advanced targeting systems capable of coordinating multiple simultaneous weapon launches for optimal effect. Though not originally intended as a naval combat chassis, the Monarch’s responsive controls and ability to equip a wide variety of missile payloads have led to its increasing adoption by pilots who value its combination of speed and firepower.</div>",
+    "tags": [
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Monarch Command",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic [Range 3–0]</strong></div><div>Give the MONARCH CHASSIS WING one of the following commands:</div><div>• Seeking Payloads: Deal 2 damage to a hostile CAPITAL SHIP or ESCORT, or consume LOCK ON from a CAPITAL SHIP or ESCORT to deal 4 damage to that ship and either deal 2 damage to all of its WINGS or remove 1 Flight Counter from one of your active PAYLOAD attacks. </div><div>• Gandiva Missiles: This Wing launches a salvo of advanced Gandiva missiles. This is a PRIMARY single-target PAYLOAD attack that deals 1d6+3 damage and can be fired at up to two targets at a time, tracked individually. When using this command, you may consume LOCK ON from the target to add or remove one Flight Counter from that PAYLOAD.</div>",
+        "pilot": false,
+        "range": [
+          {
+            "type": "Range",
+            "val": 3
+          }
+        ],
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Monarch Chassis Wing",
+        "type": "Wing",
+        "detail": "<div><strong>Wing, Unique</strong></div><div>The integrated SSC-30 High-Penetration Missile Systems carried by these mechs allow them to coordinate reactive volleys of Avenger micromissiles with other strikes. 1/round whenever a weapon in your battlegroup or an allied battlegroup in the same range band critically hits a target within Range 3–0, even if it doesn’t have the CRITICAL tag, you may use these micromissiles to deal 2 damage to a hostile CAPITAL SHIP, ESCORT, or WING. Additionally, gain the Monarch Command tactic.</div><div><strong>Monarch Command</strong></div><div><strong>Tactic [Range 3–0]</strong></div><div>Give the MONARCH CHASSIS WING one of the following commands:</div><div>• Seeking Payloads: Deal 2 damage to a hostile CAPITAL SHIP or ESCORT, or consume LOCK ON from a CAPITAL SHIP or ESCORT to deal 4 damage to that ship and either deal 2 damage to all of its WINGS or remove 1 Flight Counter from one of your active PAYLOAD attacks. </div><div>• Gandiva Missiles: This Wing launches a salvo of advanced Gandiva missiles. This is a PRIMARY single-target PAYLOAD attack that deals 1d6+3 damage and can be fired at up to two targets at a time, tracked individually. When using this command, you may consume LOCK ON from the target to add or remove one Flight Counter from that PAYLOAD.</div>",
+        "size": 1,
+        "activation": "",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "8",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      },
+      {
+        "name": "Gandiva Missiles",
+        "type": "Payload",
+        "detail": "<div>Set HP to payload counters</div><div><strong>Primary, Single-Target, Payload</strong></div><div><strong>[Range 3–0][1d6+3 damage]</strong></div><div>This payload may be fired at up to 2 targets at once, tracked individually, by the <strong>Gandiva Missiles</strong> Wing Command</div>",
+        "size": 1,
+        "activation": "Quick",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "5",
+        "evasion": "0",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ]
+  },
+  {
+    "id": "TortugaWing",
+    "name": "Tortuga Chassis Wing",
+    "source": "IPS-N",
+    "license": "",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div><strong>Wing, Boarding, Unique [Tenacity 12]</strong></div><div>Gain the Tortuga Command tactic.</div>",
+    "type": "Drone",
+    "sp": "3",
+    "description": "<div>IPS-N’s Tortuga is one of the corpro’s most iconic and widespread chassis designs, offered in whole-fleet line contracts to numerous clients and states. The Tortuga is purpose-built to operate in deep space; though it makes for an adequate strike unit with the addition of a chassis mount, the Tortuga is primarily meant to breach and clear carrier decks, hostile station environments, and the spinal columns of capital ships. With its heavy, angular hull it serves as both battering ram and bulwark, clearing a path for allied boarders as it advances. An integrated WATCHDOG co-pilot system provides pilots with additional full-spectrum response capability under even heavy fire.</div>",
+    "tags": [
+      {
+        "id": "tg_unique",
+        "name": "Unique",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      },
+      {
+        "id": "tg_limited",
+        "name": "Limited {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 2
+      }
+    ],
+    "actions": [
+      {
+        "name": "Tortuga Command",
+        "activation": "Quick",
+        "detail": "<div><strong>Tactic [Range 3–0]</strong></div><div>Give the TORTUGA CHASSIS WING one of the following commands:</div><div>• Heavy Gunner: Deal 1d3 damage to a hostile ESCORT or WING. Until the end of your next turn, the next time the TORTUGA CHASSIS WING or the ship it is equipped to takes damage from an ESCORT or WING while within Range 3–0, you may deal 3 damage to it in response. </div><div>• Decksweepers: Repel a boarding unit from a ship in your battlegroup or in an allied battlegroup in the same range band, then deal 3 damage to that unit.</div><div>• Daisy Cutters: Assign this unit to board a hostile CAPITAL SHIP. Each time it succeeds on a boarding roll, the boarded ship takes 2 damage. 2/engagement, you may increase this to 1d6+1 damage instead.</div>",
+        "pilot": false,
+        "range": [
+          {
+            "type": "Range",
+            "val": 3
+          }
+        ],
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Tortuga Chassis Wing",
+        "type": "Wing",
+        "detail": "<div><strong>Wing, Boarding, Unique [Tenacity 12]</strong></div><div>Gain the Tortuga Command tactic.</div><div><strong>Tortuga Command</strong></div><div><strong>Tactic [Range 3–0]</strong></div><div>Give the TORTUGA CHASSIS WING one of the following commands:</div><div>• Heavy Gunner: Deal 1d3 damage to a hostile ESCORT or WING. Until the end of your next turn, the next time the TORTUGA CHASSIS WING or the ship it is equipped to takes damage from an ESCORT or WING while within Range 3–0, you may deal 3 damage to it in response. </div><div>• Decksweepers: Repel a boarding unit from a ship in your battlegroup or in an allied battlegroup in the same range band, then deal 3 damage to that unit.</div><div>• Daisy Cutters: Assign this unit to board a hostile CAPITAL SHIP. Each time it succeeds on a boarding roll, the boarded ship takes 2 damage. 2/engagement, you may increase this to 1d6+1 damage instead.</div>",
+        "size": 1,
+        "activation": "",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "8",
+        "evasion": "12",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ]
+  },
+  {
+    "id": "MountedChassis",
+    "name": "Mounted Chassis Wing",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div>Wing, Boarding [5 HP][Tenacity 11]</div><div>Gain the Chassis Command tactic.</div>",
+    "type": "Drone",
+    "sp": "2",
+    "description": "<div>Chassis mounts are exterior-mounted frames that allow mechs them to operate in deep space. With a mount installed, mechs rocket toward enemy capital ships, dogfight, and maneuver in space with far more agility than conventional mech-tier EVA units would otherwise allow.</div>",
+    "actions": [
+      {
+        "name": "Chassis Command",
+        "activation": "Quick",
+        "detail": "<div>Tactic [Range 3–0]</div><div>Choose a MOUNTED CHASSIS WING in your</div><div>battlegroup and give it one of these commands:</div><div>• Toe-to-Toe: Deal 1d3 damage to a hostile CAPITAL SHIP, ESCORT, or WING.</div><div>• Breach and Clear: Assign this unit to board a hostile CAPITAL SHIP. Each time it succeeds on a boarding roll, the boarded ship takes 2 damage</div>",
+        "pilot": false,
+        "range": [
+          {
+            "type": "Range",
+            "val": 3
+          }
+        ],
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ],
+    "deployables": [
+      {
+        "name": "Mounted Chassis Wing",
+        "type": "Wing",
+        "detail": "<div>Tactic [Range 3–0]</div><div>Choose a MOUNTED CHASSIS WING in your</div><div>battlegroup and give it one of these commands:</div><div>• Toe-to-Toe: Deal 1d3 damage to a hostile CAPITAL SHIP, ESCORT, or WING.</div><div>• Breach and Clear: Assign this unit to board a hostile CAPITAL SHIP. Each time it succeeds on a boarding roll, the boarded ship takes 2 damage</div>",
+        "size": 1,
+        "activation": "",
+        "deactivation": "",
+        "recall": "",
+        "redeploy": "",
+        "instances": 1,
+        "cost": 1,
+        "armor": "0",
+        "hp": "5",
+        "evasion": "11",
+        "edef": "0",
+        "heatcap": "0",
+        "repcap": "0",
+        "sensor_range": "0",
+        "tech_attack": "0",
+        "save": "0",
+        "speed": "0",
+        "pilot": false,
+        "mech": false
+      }
+    ]
+  },
+  {
+    "id": "Flagship",
+    "name": "Flagship",
+    "source": "GMS",
+    "license": "GMS",
+    "license_id": "",
+    "license_level": 0,
+    "effect": "<div>This ship has been designated the Flagship of its battlegroup, gaining +3 HP, +1d6 INTERDICTION, and +1 SYSTEM slot.</div>",
+    "type": "System",
+    "sp": "0",
+    "description": "<div>Each player has one FLAGSHIP that represents the center of their battlegroup’s command structure. This is generally the ship carrying their commander. Each NPC battlegroup is also formed around a FLAGSHIP</div>",
+    "bonuses": [
+      {
+        "id": "hp",
+        "val": 3,
+        "damage_types": [],
+        "range_types": [],
+        "weapon_types": [],
+        "weapon_sizes": [],
+        "overwrite": false,
+        "replace": false
+      }
+    ]
+  }
+]

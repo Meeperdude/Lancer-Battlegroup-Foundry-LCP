@@ -1,0 +1,1967 @@
+[
+  {
+    "id": "CSea",
+    "license_id": "CSea",
+    "source": "GMS",
+    "license_level": 0,
+    "name": "Caspian Sea-class Frigate",
+    "mechtype": [
+      "Support"
+    ],
+    "variant": "",
+    "description": "<div>The GMS Caspian Sea is the backbone of Union’s fleets. Built upon a base pattern outfitted with overlapping primary and secondary batteries, Caspian Sea–class frigates are tough and flexible  multirole vessels that can hold their own both in a battle line and on solo patrol. Developed by GMS under the Second Committee during the Second Expansion Period, the Caspian Sea class has been in use for centuries thanks to ongoing platform modernization regimes. It was one of the few hulls not to be scrapped during the Third Committee’s ground-up reworking of the Union Naval Department, and these frigates remain a common first posting for both regular and auxiliary navy personnel. Union naval doctrine typically designates Caspian Sea–class frigates as fire-coordination platforms and  “mainline”-tier ships of the line.</div>",
+    "mounts": [
+      "Main",
+      "Aux"
+    ],
+    "stats": {
+      "size": 3,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 16,
+      "evasion": 10,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 3
+    },
+    "traits": [
+      {
+        "name": "Defensive Screen",
+        "use": "",
+        "description": "<div><strong>Tactic</strong></div><div>Smaller ships are often tasked with providing a defensive screen for larger vessels, supporting and protecting them while they coordinate fighter-tier activities or bring devastating weapons to bear. This tactic can only be used by a battlegroup that contains at least one active FRIGATE; CARRIERS and BATTLESHIPS are too ponderous to provide effective screening.</div><div>Choose a FRIGATE under your command and assign it to screen for another CAPITAL SHIP in your battlegroup or for an allied CAPITAL SHIP within the same range band. Until the start of your next turn, all attacks and abilities targeting the screened ship have a 50 percent chance of being intercepted. Roll a die or flip a coin to determine this. Abilities or attacks that are intercepted must either be aborted (wasting the action) or target the screening FRIGATE instead. If the attacker cannot target the screening FRIGATE for some reason, it may then choose another valid target, not including the screened ship. Once assigned to protect a ship, a FRIGATE cannot be ordered to screen for another vessel until the start of your next turn.</div><div>FRIGATES cannot be assigned to a defensive screen if they’ve also attacked on the same turn, and FRIGATES on protective duty cannot use weapons except for AUXILIARY weapons as they must concentrate on intercepting incoming threats. If the screening FRIGATE is destroyed, all effects it was providing to screened ships immediately end. Only a single FRIGATE can screen for another ship at a time, and FRIGATES cannot screen for other Frigates that are also screening.</div><div>When this ship is assigned to a DEFENSIVE SCREEN, it may LOCK ON to a hostile CAPITAL SHIP or ESCORT.</div>"
+      },
+      {
+        "name": "Fire-Control System",
+        "use": "Round",
+        "description": "<div>1/round when an allied battlegroup in your range band consumes LOCK ON as part of an attack, it may reroll that attack but must keep the second result.</div><div>Additionally, when this ship is assigned to a DEFENSIVE SCREEN, it may LOCK ON to a hostile CAPITAL SHIP or ESCORT.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "Free",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "Round",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Huron",
+    "license_id": "Huron",
+    "source": "GMS",
+    "license_level": 0,
+    "name": "Huron-Class Frigate",
+    "mechtype": [
+      "Defender"
+    ],
+    "variant": "",
+    "description": "<div>The Huron-class frigate is a dedicated weapons platform most often stationed at the perimeters of friendly fleets, where it patrols the flanks as a deterrent to hostile fighters and subline ships. Able to distribute withering curtains of fire along multiple approach vectors, Huron-class frigates are stalwart defensive support units rarely encountered outside of combat deployments. In the Union Navy, there’s an old axiom: “If you can see a Huron, prepare for a storm.”</div>",
+    "mounts": [
+      "Main",
+      "Aux"
+    ],
+    "stats": {
+      "size": 3,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 16,
+      "evasion": 10,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 3
+    },
+    "traits": [
+      {
+        "name": "Defensive Screen",
+        "use": "Round",
+        "description": "<div><strong>Tactic</strong></div><div>Choose a FRIGATE under your command and assign it to screen for another CAPITAL SHIP in your battlegroup or for an allied CAPITAL SHIP within the same range band. Until the start of your next turn, all attacks and abilities targeting the screened ship have a 50 percent chance of being intercepted. Roll a die or flip a coin to determine this. Abilities or attacks that are intercepted must either be aborted (wasting the action) or target the screening FRIGATE instead. If the attacker cannot target the screening FRIGATE for some reason, it may then choose another valid target, not including the screened ship. Once assigned to protect a ship, a FRIGATE cannot be ordered to screen for another vessel until the start of your next turn.</div><div>FRIGATES cannot be assigned to a defensive screen if they’ve also attacked on the same turn, and FRIGATES on protective duty cannot use weapons except for AUXILIARY weapons as they must concentrate on intercepting incoming threats. If the screening FRIGATE is destroyed, all effects it was providing to screened ships immediately end. Only a single FRIGATE can screen for another ship at a time, and FRIGATES cannot screen for other Frigates that are also screening</div><div>When this FRIGATE is assigned to a defensive screen, its Flak Screen trait applies to the battlegroup it is screening for</div>"
+      },
+      {
+        "name": "Flak Screen",
+        "use": "",
+        "description": "<div>Whenever a hostile ESCORT or WING makes an attack roll against or deals damage to any of your CAPITAL SHIPS, ESCORTS, or WINGS during the Action Phase, roll 1d20. On 10+, the attacker takes 3 damage. If this damage is enough to destroy it, it is destroyed before it can carry out its attack or action and any effects are negated.</div><div>When this FRIGATE is assigned to a DEFENSIVE SCREEN, this trait applies to the battlegroup it is screening for and the roll automatically succeeds.</div><div>This trait does not stack. Instead, whenever multiple ships with this trait are part of or are screening the same battlegroup, choose one to use this trait and increase its damage by +1 for each additional ship with this trait beyond the first.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Superior",
+    "license_id": "Superior",
+    "source": "GMS",
+    "license_level": 0,
+    "name": "Superior-Class Frigate",
+    "mechtype": [
+      "Support"
+    ],
+    "variant": "",
+    "description": "",
+    "mounts": [
+      "Main"
+    ],
+    "stats": {
+      "size": 3,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 16,
+      "evasion": 10,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 3
+    },
+    "traits": [
+      {
+        "name": "Defensive Screen",
+        "use": "Round",
+        "description": "<div><strong>Tactic</strong></div><div>Choose a FRIGATE under your command and assign it to screen for another CAPITAL SHIP in your battlegroup or for an allied CAPITAL SHIP within the same range band. Until the start of your next turn, all attacks and abilities targeting the screened ship have a 50 percent chance of being intercepted. Roll a die or flip a coin to determine this. Abilities or attacks that are intercepted must either be aborted (wasting the action) or target the screening FRIGATE instead. If the attacker cannot target the screening FRIGATE for some reason, it may then choose another valid target, not including the screened ship. Once assigned to protect a ship, a FRIGATE cannot be ordered to screen for another vessel until the start of your next turn.</div><div>FRIGATES cannot be assigned to a defensive screen if they’ve also attacked on the same turn, and FRIGATES on protective duty cannot use weapons except for AUXILIARY weapons as they must concentrate on intercepting incoming threats. If the screening FRIGATE is destroyed, all effects it was providing to screened ships immediately end. Only a single FRIGATE can screen for another ship at a time, and FRIGATES cannot screen for other Frigates that are also screening</div><div>Whenever this FRIGATE is assigned to a defensive screen, the ship it is screening for repairs 2 HP</div>"
+      },
+      {
+        "name": "Logistical Capacity",
+        "use": "",
+        "description": "<div>This ship is equipped with 1 system slot.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Repair Drones",
+      "active_name": "Fleet Triage",
+      "active_effect": "<p><strong>Tactic, Limited 1</strong></p><p>One of your CAPITAL SHIPS or ESCORTS, or an allied CAPITAL SHIP or ESCORT in your range band, repairs 5 HP.</p>",
+      "activation": "Quick",
+      "description": "",
+      "deactivation": "",
+      "use": "Round",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "Repair Drones",
+      "passive_effect": "<p>When the GMS Superior-class is assigned to a DEFENSIVE SCREEN, the ship it is screening for repairs 2 HP.</p>",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Creighton",
+    "license_id": "Creighton",
+    "source": "HA",
+    "license_level": 0,
+    "name": "Creighton-Class Frigate",
+    "mechtype": [
+      "Artillery"
+    ],
+    "variant": "",
+    "description": "<div>In true Harrison Armory fashion, the Creighton-class frigate is an experiment in firepower maximization – an attempt to see whether the Armory’s engineers could mount one of the largest naval guns available on the smallest hull possible without catastrophic failure. The resulting frigate is less a ship carrying a gun than it is a gun with a ship built to support it. Designed for deployment as a second-line, over-horizon platform, the Creighton excels when it has the time and distance to engage targets downrange without proximity pressure. There are currently two main patterns of the Creighton in active service: the Creighton/OVERSEER, which employs an advanced predictive-modeling and hull-stabilization array optimized for ranges typically considered low-confidence, and the Creighton/VEGA, which trades this system out for a high-powered “hot” targeting laser matrix by the same name, suitable for engagements in which the battle lines are more fluid.</div>",
+    "mounts": [
+      "Superheavy"
+    ],
+    "stats": {
+      "size": 3,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 12,
+      "evasion": 10,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 3
+    },
+    "traits": [
+      {
+        "name": "Defensive Screen",
+        "use": "Round",
+        "description": "<div><strong>Tactic</strong></div><div>Choose a FRIGATE under your command and assign it to screen for another CAPITAL SHIP in your battlegroup or for an allied CAPITAL SHIP within the same range band. Until the start of your next turn, all attacks and abilities targeting the screened ship have a 50 percent chance of being intercepted. Roll a die or flip a coin to determine this. Abilities or attacks that are intercepted must either be aborted (wasting the action) or target the screening FRIGATE instead. If the attacker cannot target the screening FRIGATE for some reason, it may then choose another valid target, not including the screened ship. Once assigned to protect a ship, a FRIGATE cannot be ordered to screen for another vessel until the start of your next turn.</div><div>FRIGATES cannot be assigned to a defensive screen if they’ve also attacked on the same turn, and FRIGATES on protective duty cannot use weapons except for AUXILIARY weapons as they must concentrate on intercepting incoming threats. If the screening FRIGATE is destroyed, all effects it was providing to screened ships immediately end. Only a single FRIGATE can screen for another ship at a time, and FRIGATES cannot screen for other Frigates that are also screening</div>"
+      },
+      {
+        "name": "Purpose Built",
+        "use": "",
+        "description": "<div>This ship can only equip SUPERHEAVY weapons with the CHARGE tag. SUPERHEAVY weapons equipped to this frigate cost 1 point less, to a minimum of 0.</div><div>This ship also has either the VEGA-Pattern Targeting Laser trait <em>or </em>the Calibrated Firing Platform trait.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Purpose Built",
+      "active_name": "Overseer Targetting",
+      "active_effect": "<p>1/engagement, you may reroll one attack this ship makes from EXTREME RANGE or LONG RANGE, but must keep the second result.</p>",
+      "activation": "Free",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "Scene",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "Calibrated Firing Platform",
+      "passive_effect": "<p>When at EXTREME RANGE or LONG RANGE, this ship gains a flat +1 to its attack rolls and its attacks gain +3 RELIABLE.</p><p>Additionally, 1/engagement, you may reroll one attack this ship makes from EXTREME RANGE or LONG RANGE, but must keep the second result.</p>",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [
+        "Vega"
+      ],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Houston",
+    "license_id": "Houston",
+    "source": "HA",
+    "license_level": 0,
+    "name": "Houston-Class Frigate",
+    "mechtype": [
+      "Support"
+    ],
+    "variant": "",
+    "description": "<div>Harrison Armory’s fleet-tier strategic doctrines are structured around the use of highly specialized frigates, each designed from the ground up to fulfill a particular role at the expense of individual tactical flexibility, each ship operating as one component of a large and cohesive fleet organized from the top down. Houston-class frigates are designed to enhance their battlegroup’s systemic and logistical capabilities, forming the backbone upon which other fleet combat elements rely. Minimally armed, Houston-class ships are nonetheless critical components of any black sky or orbital fleet on long deployment. Assignment to a Houston is often granted to commanders with a keen eye for big-picture strategy but minimal combat experience, and is occasionally, though incorrectly, seen as a dead-end posting by those officers who would prefer to fight the enemy directly.</div>",
+    "mounts": [],
+    "stats": {
+      "size": 3,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 14,
+      "evasion": 12,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 2,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 4
+    },
+    "traits": [
+      {
+        "name": "Defensive Screen",
+        "use": "Round",
+        "description": "<div><strong>Tactic</strong></div><div>Choose a FRIGATE under your command and assign it to screen for another CAPITAL SHIP in your battlegroup or for an allied CAPITAL SHIP within the same range band. Until the start of your next turn, all attacks and abilities targeting the screened ship have a 50 percent chance of being intercepted. Roll a die or flip a coin to determine this. Abilities or attacks that are intercepted must either be aborted (wasting the action) or target the screening FRIGATE instead. If the attacker cannot target the screening FRIGATE for some reason, it may then choose another valid target, not including the screened ship. Once assigned to protect a ship, a FRIGATE cannot be ordered to screen for another vessel until the start of your next turn.</div><div>FRIGATES cannot be assigned to a defensive screen if they’ve also attacked on the same turn, and FRIGATES on protective duty cannot use weapons except for AUXILIARY weapons as they must concentrate on intercepting incoming threats. If the screening FRIGATE is destroyed, all effects it was providing to screened ships immediately end. Only a single FRIGATE can screen for another ship at a time, and FRIGATES cannot screen for other Frigates that are also screening</div>"
+      },
+      {
+        "name": "Enhanced Logistics",
+        "use": "",
+        "description": "<p><strong>Limited 2</strong></p><p>1/round, you may expend a use of this trait during the Logistics Phase to remove 1 REFRESH COUNTER from any RELOADING weapon, upgrade, or ability in your battlegroup or an allied battlegroup in the same range band. That weapon, upgrade, or ability can only have a single counter removed this way between uses. Limited uses tracked by Repair Capacity</p>"
+      },
+	  {
+        "name": "Logistical Capacity",
+        "use": "",
+        "description": "<div>This ship is equipped with 2 System Slots</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "Round",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": [
+        {
+          "id": "tg_limited",
+          "name": "Limited {VAL}",
+          "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+          "val": 2
+        }
+      ]
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Turenne",
+    "license_id": "Turenne",
+    "source": "HA",
+    "license_level": 0,
+    "name": "Turenne-Class Frigate",
+    "mechtype": [
+      "Defender"
+    ],
+    "variant": "",
+    "description": "<div>The Turenne-class frigate is another specialized design, this one built to serve as a protective escort for other vessels through a combination of conventional point-defense systems and the Armory’s advanced projected-shield technologies. Equipped with high-output reactors for uninterrupted defensive system uptime while screening, the Turenne nonetheless only carries light armaments as the bulk of its power is reserved for demanding electromagnetic/wave-scatter screens, complex realspace envelopes, and experimental hardlight barriers. Even with such a surplus of power, these defensive systems can only do so much to mitigate the titanic forces of naval weaponry; nonetheless, a Turenne in the right place at the right time has more than once meant the difference between survival and destruction for Purview forces.</div>",
+    "mounts": [
+      "Aux",
+      "Aux"
+    ],
+    "stats": {
+      "size": 3,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 14,
+      "evasion": 12,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 4
+    },
+    "traits": [
+      {
+        "name": "Defensive Screen",
+        "use": "Round",
+        "description": "<div>Tactic</div><div>Choose a FRIGATE under your command and assign it to screen for another CAPITAL SHIP in your battlegroup or for an allied CAPITAL SHIP within the same range band. Until the start of your next turn, all attacks and abilities targeting the screened ship have a 50 percent chance of being intercepted. Roll a die or flip a coin to determine this. Abilities or attacks that are intercepted must either be aborted (wasting the action) or target the screening FRIGATE instead. If the attacker cannot target the screening FRIGATE for some reason, it may then choose another valid target, not including the screened ship. Once assigned to protect a ship, a FRIGATE cannot be ordered to screen for another vessel until the start of your next turn.</div><div>FRIGATES cannot be assigned to a defensive screen if they’ve also attacked on the same turn, and FRIGATES on protective duty cannot use weapons except for AUXILIARY weapons as they must concentrate on intercepting incoming threats. If the screening FRIGATE is destroyed, all effects it was providing to screened ships immediately end. Only a single FRIGATE can screen for another ship at a time, and FRIGATES cannot screen for other Frigates that are also screening</div><div>When this FRIGATE is assigned to a defensive screen, that battlegroup gains +3 Interdiction</div>"
+      },
+      {
+        "name": "Active Defense",
+        "use": "",
+        "description": "<div>When this ship is assigned to a DEFENSIVE SCREEN, that battlegroup gains +3 INTERDICTION.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Active",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Cirsium",
+    "license_id": "Cirsium",
+    "source": "FKS",
+    "license_level": 0,
+    "name": "Cirsium-Class Frigate",
+    "mechtype": [
+      "Support",
+      "Striker"
+    ],
+    "variant": "",
+    "description": "<div>A newer Baronic hull design from the Federal Karrakin Shipyards, any officer fresh from the Academy knows that an assignment to a Cirsium-class frigate (or, as they are called in the Baronies, rasées) indicates that someone in command has taken a liking to them. Standard doctrine for a Cirsium sees the vessel accompanied by a subline escort, harnessing the larger ship’s tactical command-and-control infrastructure to maintain combat readiness. This grants Cirsium commanders the ability to coordinate multipronged offensive actions on their own and has given the class a reputation as “tactician’s vessels”, though many Baronic commanders are known to order their escorts into dangerous situations in an effort to reap the resulting glory for themselves.</div>",
+    "mounts": [
+      "Main"
+    ],
+    "stats": {
+      "size": 3,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 14,
+      "evasion": 10,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 3
+    },
+    "traits": [
+      {
+        "name": "Defensive Screen",
+        "use": "",
+        "description": "<div><strong>Tactic</strong></div><div>Choose a FRIGATE under your command and assign it to screen for another CAPITAL SHIP in your battlegroup or for an allied CAPITAL SHIP within the same range band. Until the start of your next turn, all attacks and abilities targeting the screened ship have a 50 percent chance of being intercepted. Roll a die or flip a coin to determine this. Abilities or attacks that are intercepted must either be aborted (wasting the action) or target the screening FRIGATE instead. If the attacker cannot target the screening FRIGATE for some reason, it may then choose another valid target, not including the screened ship. Once assigned to protect a ship, a FRIGATE cannot be ordered to screen for another vessel until the start of your next turn.</div><div>FRIGATES cannot be assigned to a defensive screen if they’ve also attacked on the same turn, and FRIGATES on protective duty cannot use weapons except for AUXILIARY weapons as they must concentrate on intercepting incoming threats. If the screening FRIGATE is destroyed, all effects it was providing to screened ships immediately end. Only a single FRIGATE can screen for another ship at a time, and FRIGATES cannot screen for other Frigates that are also screening</div>"
+      },
+      {
+        "name": "Support Nacelle",
+        "use": "",
+        "description": "<div>This ship is equipped with 1 escort slot.</div>"
+      },
+      {
+        "name": "Honor Guard",
+        "use": "Round",
+        "description": "<div>1/round when this ship takes damage from any source while it has an ESCORT equipped, it instead takes 0 damage and the ESCORT takes that amount of damage instead.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Onopordum",
+    "license_id": "Onopordum",
+    "source": "FKS",
+    "license_level": 0,
+    "name": "Onopordum-Class Frigate",
+    "mechtype": [
+      "Balanced"
+    ],
+    "variant": "",
+    "description": "<div>One of the oldest classes of Baronic ships still in active service, and in fact one of the oldest still in service anywhere, the Onopordum-class frigate is underpowered and undergunned by contemporary standards. This weakness is outweighed by one simple, but vital, fact: there are more Onopordums in service than almost any other vessel.</div><div>What was once the backbone of the Baronic navy is now merely a holdout from a bygone era, sold and licensed to minor Diasporan powers, used as training ships and system patrol boats, but nonetheless still pressed into service as needed to fill gaps in a battlegroup’s line. Cramped and boasting poor amenities, the Onopordum is not a glorious ship in the slightest, but their crews tend to develop an inordinate, superstitious attachment to them, going as far as to consider them lucky vessels – those that survive battle, anyway. Following a series of mutinies and live-fire incidents, Baronic Unified Command has instituted regular periodic rotations of Onopordum crews to maintain “acceptable levels of morale and combat readiness”</div>",
+    "mounts": [
+      "Main"
+    ],
+    "stats": {
+      "size": 3,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 14,
+      "evasion": 10,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 2
+    },
+    "traits": [
+      {
+        "name": "Defensive Screen",
+        "use": "",
+        "description": "<div><strong>Tactic</strong></div><div>Choose a FRIGATE under your command and assign it to screen for another CAPITAL SHIP in your battlegroup or for an allied CAPITAL SHIP within the same range band. Until the start of your next turn, all attacks and abilities targeting the screened ship have a 50 percent chance of being intercepted. Roll a die or flip a coin to determine this. Abilities or attacks that are intercepted must either be aborted (wasting the action) or target the screening FRIGATE instead. If the attacker cannot target the screening FRIGATE for some reason, it may then choose another valid target, not including the screened ship. Once assigned to protect a ship, a FRIGATE cannot be ordered to screen for another vessel until the start of your next turn.</div><div>FRIGATES cannot be assigned to a defensive screen if they’ve also attacked on the same turn, and FRIGATES on protective duty cannot use weapons except for AUXILIARY weapons as they must concentrate on intercepting incoming threats. If the screening FRIGATE is destroyed, all effects it was providing to screened ships immediately end. Only a single FRIGATE can screen for another ship at a time, and FRIGATES cannot screen for other Frigates that are also screening</div><div>When this ship is assigned to a DEFENSIVE SCREEN, interception is determined by a d20 roll instead of it being a 50 percent chance. On a result of 10+, it succeeds.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Stealing luck from the Devil",
+      "active_name": "Stealing Luck from the Devi",
+      "active_effect": "<p>1/engagement, you may add or subtract 1d3 from any d20 roll (yours, an ally’s, or an enemy’s) after seeing the result. Each roll can only be modified in this way once, even if you or your allies have more than one ship with this trait.</p>",
+      "activation": "Free",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "Scene",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Tolumnia",
+    "license_id": "Tolumnia",
+    "source": "FKS",
+    "license_level": 0,
+    "name": "Tolumnia-Class Frigate",
+    "mechtype": [
+      "Artillery"
+    ],
+    "variant": "",
+    "description": "",
+    "mounts": [
+      "Main",
+      "Main"
+    ],
+    "stats": {
+      "size": 3,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 16,
+      "evasion": 10,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "name": "Defensive Screen",
+        "use": "",
+        "description": "<div><strong>Tactic</strong></div><div>Choose a FRIGATE under your command and assign it to screen for another CAPITAL SHIP in your battlegroup or for an allied CAPITAL SHIP within the same range band. Until the start of your next turn, all attacks and abilities targeting the screened ship have a 50 percent chance of being intercepted. Roll a die or flip a coin to determine this. Abilities or attacks that are intercepted must either be aborted (wasting the action) or target the screening FRIGATE instead. If the attacker cannot target the screening FRIGATE for some reason, it may then choose another valid target, not including the screened ship. Once assigned to protect a ship, a FRIGATE cannot be ordered to screen for another vessel until the start of your next turn.</div><div>FRIGATES cannot be assigned to a defensive screen if they’ve also attacked on the same turn, and FRIGATES on protective duty cannot use weapons except for AUXILIARY weapons as they must concentrate on intercepting incoming threats. If the screening FRIGATE is destroyed, all effects it was providing to screened ships immediately end. Only a single FRIGATE can screen for another ship at a time, and FRIGATES cannot screen for other Frigates that are also screening</div>"
+      },
+      {
+        "name": "Synchronized Batteries",
+        "use": "Round",
+        "description": "<div>1/round when this ship consumes LOCK ON as part of an attack with one of its PRIMARY weapons, it may forego the usual bonus from LOCK ON; instead, it may make an additional attack at  +1 DIFFICULTY against the same target with its other PRIMARY weapon.</div>"
+      },
+      {
+        "name": "Specialized Mountings",
+        "use": "",
+        "description": "<div>This ship cannot equip PAYLOAD weapons</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Bakunawa",
+    "license_id": "Bakunawa",
+    "source": "IPS-N",
+    "license_level": 0,
+    "name": "Bakunawa-Class Frigate",
+    "mechtype": [
+      "Striker"
+    ],
+    "variant": "",
+    "description": "<div>IPS-N’s ships have a far-reaching reputation for robust construction, efficient layouts, and high-capacity storage holds that can be turned to a variety of purposes. One of the corpro’s more iconic designs, the Bakunawa-class frigate is a flexible multirole vessel that uses this additional space to house a fully functional flight deck and launch bay suitable for a range of fighter-tier craft, including mechanized chassis. The Bakunawa is a common sight among Trunk Security anti-piracy patrols and, somewhat ironically, among the better equipped pirates themselves. In truth, its combination of firepower and lightning-strike capabilities make it a valuable asset for virtually any fleet.</div>",
+    "mounts": [
+      "Main"
+    ],
+    "stats": {
+      "size": 3,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 18,
+      "evasion": 8,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 4
+    },
+    "traits": [
+      {
+        "name": "Defensive Screen",
+        "use": "",
+        "description": "<div><strong>Tactic</strong></div><div>Choose a FRIGATE under your command and assign it to screen for another CAPITAL SHIP in your battlegroup or for an allied CAPITAL SHIP within the same range band. Until the start of your next turn, all attacks and abilities targeting the screened ship have a 50 percent chance of being intercepted. Roll a die or flip a coin to determine this. Abilities or attacks that are intercepted must either be aborted (wasting the action) or target the screening FRIGATE instead. If the attacker cannot target the screening FRIGATE for some reason, it may then choose another valid target, not including the screened ship. Once assigned to protect a ship, a FRIGATE cannot be ordered to screen for another vessel until the start of your next turn.</div><div>FRIGATES cannot be assigned to a defensive screen if they’ve also attacked on the same turn, and FRIGATES on protective duty cannot use weapons except for AUXILIARY weapons as they must concentrate on intercepting incoming threats. If the screening FRIGATE is destroyed, all effects it was providing to screened ships immediately end. Only a single FRIGATE can screen for another ship at a time, and FRIGATES cannot screen for other Frigates that are also screening</div><div>When this ship is assigned to a DEFENSIVE SCREEN, you may also issue a command to one of its WINGS for free.</div>"
+      },
+      {
+        "name": "Pocket Carrier",
+        "use": "",
+        "description": "<div>Each Logistics Phase, one of this ship’s WINGS may repair 2 HP.</div><div>Additionally, when this ship is assigned to a DEFENSIVE SCREEN, you may also issue a command to one of</div><div>its WINGS for free.</div>"
+      },
+      {
+        "name": "Hangar Bay",
+        "use": "",
+        "description": "<div>This ship is equipped with 1 wing slot.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Laho",
+    "license_id": "Laho",
+    "source": "IPS-N",
+    "license_level": 0,
+    "name": "Laho-Class Frigate",
+    "mechtype": [
+      "Artillery"
+    ],
+    "variant": "",
+    "description": "<div>The Laho-class frigate is an unusual offering: it is one of the few IPS-N hulls designed with a specific tactical doctrine in mind, serving as a dedicated “torpedo boat” built to launch long-flight munitions accurately and efficiently. As a result, the Laho sees markedly more use as part of many navies’ combined-arms strategies than it does as patrol or escort vessels, tasks at which IPS-N ships typically excel. Focused solely on deploying salvos of anti-ship torpedoes and missiles, which it can quickly do thanks to a rapid-cycling rotary launch system, the Laho is vulnerable on its own and often relies on other ships to defend it against more immediate threats.</div>",
+    "mounts": [
+      "Main"
+    ],
+    "stats": {
+      "size": 3,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 18,
+      "evasion": 8,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 4
+    },
+    "traits": [
+      {
+        "name": "Defensive Screen",
+        "use": "",
+        "description": "<div><strong>Tactic</strong></div><div>Choose a FRIGATE under your command and assign it to screen for another CAPITAL SHIP in your battlegroup or for an allied CAPITAL SHIP within the same range band. Until the start of your next turn, all attacks and abilities targeting the screened ship have a 50 percent chance of being intercepted. Roll a die or flip a coin to determine this. Abilities or attacks that are intercepted must either be aborted (wasting the action) or target the screening FRIGATE instead. If the attacker cannot target the screening FRIGATE for some reason, it may then choose another valid target, not including the screened ship. Once assigned to protect a ship, a FRIGATE cannot be ordered to screen for another vessel until the start of your next turn.</div><div>FRIGATES cannot be assigned to a defensive screen if they’ve also attacked on the same turn, and FRIGATES on protective duty cannot use weapons except for AUXILIARY weapons as they must concentrate on intercepting incoming threats. If the screening FRIGATE is destroyed, all effects it was providing to screened ships immediately end. Only a single FRIGATE can screen for another ship at a time, and FRIGATES cannot screen for other Frigates that are also screening</div>"
+      },
+      {
+        "name": "Logistical Capacity",
+        "use": "",
+        "description": "<div>This ship is equipped with 1 system slot.</div>"
+      },
+      {
+        "name": "Torpedo Boat",
+        "use": "",
+        "description": "<div>This ship can only equip PRIMARY weapons with the PAYLOAD tag.</div>"
+      },
+      {
+        "name": "Rotary Launch Tubes",
+        "use": "",
+        "description": "<div>You may choose to reduce the starting FLIGHT COUNTERS of any PAYLOAD weapon equipped to this ship by 1, to a minimum of 1.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Minokawa",
+    "license_id": "Minokawa",
+    "source": "IPS-N",
+    "license_level": 0,
+    "name": "Minokawa-Class Frigate",
+    "mechtype": [
+      "Striker"
+    ],
+    "variant": "",
+    "description": "<div>Based on the Bakunawa hull, the Minokawa trades out its counterpart’s flight deck and strike craft launch capabilities for expanded marine crew capacity, mechanized chassis bays, and an integrated array of short-range ship-to-ship transfer vehicles. While it is typically employed by IPS-N Trunk Security as a well-armed boarding/counter-boarding vessel capable of operating independently on long patrols, the Minokawa also functions capably as part of larger fleet actions. With close-up actions in mind, the Minokawa’s internal layout is designed to be as hostile to invading forces as possible. Overlapping automated defense systems and reinforced bulkheads funnel intruders into chokepoints and kill boxes, where sizable contingents of marines and counter-boarding chassis can efficiently and effectively dispatch them.</div>",
+    "mounts": [
+      "Main"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 18,
+      "evasion": 8,
+      "edef": 6,
+      "heatcap": 6,
+      "repcap": 6,
+      "sensor_range": 10,
+      "tech_attack": 0,
+      "save": 12,
+      "speed": 4,
+      "sp": 4
+    },
+    "traits": [
+      {
+        "name": "Defensive Screen",
+        "use": "Round",
+        "description": "<div><strong>Tactic</strong></div><div>Choose a FRIGATE under your command and assign it to screen for another CAPITAL SHIP in your battlegroup or for an allied CAPITAL SHIP within the same range band. Until the start of your next turn, all attacks and abilities targeting the screened ship have a 50 percent chance of being intercepted. Roll a die or flip a coin to determine this. Abilities or attacks that are intercepted must either be aborted (wasting the action) or target the screening FRIGATE instead. If the attacker cannot target the screening FRIGATE for some reason, it may then choose another valid target, not including the screened ship. Once assigned to protect a ship, a FRIGATE cannot be ordered to screen for another vessel until the start of your next turn.</div><div>FRIGATES cannot be assigned to a defensive screen if they’ve also attacked on the same turn, and FRIGATES on protective duty cannot use weapons except for AUXILIARY weapons as they must concentrate on intercepting incoming threats. If the screening FRIGATE is destroyed, all effects it was providing to screened ships immediately end. Only a single FRIGATE can screen for another ship at a time, and FRIGATES cannot screen for other Frigates that are also screening</div><div>When it is assigned to a DEFENSIVE SCREEN, all boarding actions made against it and the ship it is screening receive +1 DIFFICULTY.</div>"
+      },
+      {
+        "name": "Patrol Cutter",
+        "use": "",
+        "description": "<div>This ship has a special modular slot that can be used to equip either an ESCORT or WING. It can only equip ESCORTS and WINGS with the BOARDING tag.</div>"
+      },
+      {
+        "name": "Rapid Reaction Force",
+        "use": "",
+        "description": "<div>This ship rolls to repel boarders with +1 ACCURACY. Additionally, when it is assigned to a DEFENSIVE SCREEN, all boarding actions made against it and the ship it is screening receive +1 DIFFICULTY.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Amazon",
+    "license_id": "Amazon",
+    "source": "GMS",
+    "license_level": 0,
+    "name": "Amazon-Class Line Carrier",
+    "mechtype": [
+      "Striker"
+    ],
+    "variant": "",
+    "description": "<div>The Amazon-class line carrier is the standard by which other carrier designs are measured. Used by dozens of navies across Union space, the Amazon is a dedicated example of conventional carrier doctrines in action, launching and maintaining multiple wings of strike craft or mounted chassis in support of fleet actions. The Amazon serves as GMS’s testbed platform for advances in carrier design, and so remains up to date despite its long history of service. The current version uses cutting-edge printer technology that allows it to return damaged strike craft to service more quickly than other ships of its type and even fabricate new craft from stores of raw material to replace losses during combat</div>",
+    "mounts": [],
+    "stats": {
+      "size": 4,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 14,
+      "evasion": 14,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 2,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 4
+    },
+    "traits": [
+      {
+        "name": "Rapid Printing",
+        "use": "",
+        "description": "<div>Instead of the additional 3 points CARRIERS get to spend on ESCORTS or WINGS, this ship has an additional 4 points.</div><div>Additionally, this ship features an enhanced flight decks with LIMITED 2 rapid printing systems. 1/round during the Logistics Phase, you may expend a use to repair one of this ship’s WINGS to full HP, even if it has been destroyed. Limited 2 full repair tracked by Repair Capacity</div>"
+      },
+      {
+        "name": "Flight Deck",
+        "use": "",
+        "description": "<div>This ship is equipped with 4 wing slots.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Tongass",
+    "license_id": "Tongass",
+    "source": "GMS",
+    "license_level": 0,
+    "name": "Tongass-Class Line Carrier",
+    "mechtype": [
+      "Support"
+    ],
+    "variant": "",
+    "description": "<div>Contemporary doctrines recognize two distinct uses for carriers in naval combat: launching strike craft and supporting subline vessels. Subline ships, those smaller than so-called “ships of the line”, typically require additional logistical support to maintain effective combat readiness. Carriers built to support squadrons of low-to mid-tonnage subline combat vessels do so not necessarily by housing them in launch bays, but by transporting them and their crews to deployment areas, then providing tactical coordination and a base for resupply and rearmament once engaged. The Tongass-class line carrier is Union’s mainstay subline support vessel, and both its dorsal and ventral umbilical berths and streamlined logistics suites allow it to maintain its escorts on fire-support missions without returning to second- or third- echelon shipyards.</div>",
+    "mounts": [
+      "Aux",
+      "Aux"
+    ],
+    "stats": {
+      "size": 4,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 14,
+      "evasion": 14,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 4
+    },
+    "traits": [
+      {
+        "name": "Close Support",
+        "use": "",
+        "description": "<div>Allied battlegroups in your range band may use tactics granted by this ship’s ESCORTS as if they were under their control.</div>"
+      },
+      {
+        "name": "Flight Deck",
+        "use": "",
+        "description": "<div>This ship is equipped with 2 escort slots, and 3 additional points that may only be spent on escorts and wings</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Farragut",
+    "license_id": "Farragut",
+    "source": "HA",
+    "license_level": 0,
+    "name": "Farragut-Class Starfield Carrier",
+    "mechtype": [
+      "Striker"
+    ],
+    "variant": "",
+    "description": "<div>In contrast to its more specialized frigates, Harrison Armory’s carrier design philosophy is one of flexibility. The Armory’s carriers are built with the intention of establishing centralized command-and-control/support hubs around which whole battlegroups can operate. The Farragut-class starfield carrier is perhaps the most distinct example of this philosophy, and one of the most widely known Armory carrier designs. The hull of the Farragut is robust and equipped with both launch bays and the sorts of armaments typically carried by frigates, allowing it a greater degree of independence, but its most unique feature is its modular housing bays. Engineered directly into its structure, these bays make it possible to quickly and effortlessly refit the Farragut for a variety of tactical and strategic purposes. It can be modified for everything from advanced systems implementation to increased offensive capability, additional flight decks, and enhanced subline capacity. More conservative naval commanders occasionally find the Farragut difficult to incorporate within standard deployment doctrines, and as a result it sees less widespread use outside of Purview forces.</div>",
+    "mounts": [
+      "Main"
+    ],
+    "stats": {
+      "size": 4,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 16,
+      "evasion": 13,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "name": "Modular Design",
+        "use": "",
+        "description": "<div>This ship has a special modular slot thatcan be used to equip an AUXILIARY weapon, a SYSTEM, an ESCORT, or a WING</div>"
+      },
+      {
+        "name": "Fleet Coordinator",
+        "use": "",
+        "description": "<div>When you assign a FRIGATE to a DEFENSIVE SCREEN, it may screen for up to two ships at once.</div>"
+      },
+      {
+        "name": "Flight Deck",
+        "use": "",
+        "description": "<div>This ship is equipped with 2 wing slots, and 3 additional points that may only be spent on escorts and wings</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "TagetesC",
+    "license_id": "TagetesC",
+    "source": "FKS",
+    "license_level": 0,
+    "name": "Tagetes-Class Agile Carrier",
+    "mechtype": [
+      "Striker"
+    ],
+    "variant": "",
+    "description": "<div>In Baronic naval tradition, fighter and bomber pilots are some of the few that can achieve anything like the personal glory of a chassis pilot. Consequently, the competition for postings aboard a carrier is fierce. The Baronic United Command takes special care to ensure that their carriers live up to this reputation, and the Tagetes-class agile carrier is one of the premier ships in the Baronic navy. No corners are cut and no expenses are spared, ensuring these carriers are fit to carry the noble sons and daughters of the Baronies into battle, and these ships frequently boast lavish amenities to go along with their superior maneuverability and defensive systems. This care and attention to detail also extends to the launch decks of the Tagetes, which are equipped to outfit the strike craft aboard with the most advanced munitions and defensive countermeasures available, the better to help pilots make a name for themselves in combat. All of this luxury comes at a price, however; the material and monetary costs involved in the construction of a single Tagetes are enough to purchase several other capital ships, which, though less richly appointed, are no less combat capable.</div>",
+    "mounts": [],
+    "stats": {
+      "size": 4,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 14,
+      "evasion": 15,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Lead Dancer",
+        "use": "",
+        "description": "<div>This ship’s WINGS deal +1 damage with all non-BOARDING damage effects, and all damage they take from hostile sources is reduced by 1, to a minimum of 0.</div>"
+      },
+      {
+        "name": "Flight Decks",
+        "use": "",
+        "description": "<div>This ship is equipped with 3 wing slots, 1 system slot, and 3 additional points that may only be spent on escorts and wings</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "Dummy Text",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Apeiron",
+    "license_id": "Apeiron",
+    "source": "SSC",
+    "license_level": 0,
+    "name": "Apeiron-Class Strike Carrier",
+    "mechtype": [
+      "Striker"
+    ],
+    "variant": "",
+    "description": "<div>Smaller than the Skyhook-class carriers utilized by Smith-Shimano Corpro’s Constellar Security forces, the Apeiron-class strike carrier is a more conventional vessel, albeit one designed with SSC’s exacting standards for engineering, aesthetics, and cutting-edge technology in mind. Apeiron-class carriers are manufactured for a variety of stellar powers and Diasporan states by commission, though generally only wealthier states like the Karrakin Trade Baronies can afford to do so. The Apeiron incorporates advancements first developed as part of the LUX-Iconic line’s Mourning Cloak combat chassis, utilizing experimental gravitic power plants and singularity motivators to act as a novel fighter-tier launch system capable of quickly teleporting strike craft over great distances. A series of strict minimum launch distance failsafes are in place to prevent the risk of catastrophic comaterialization.</div>",
+    "mounts": [],
+    "stats": {
+      "size": 4,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 14,
+      "evasion": 15,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Singularity Catapults",
+        "use": "",
+        "description": "<div>WINGS equipped by this ship increase both the maximum and minimum ranges of all of their effects and abilities by 1. For example, a WING that would usually have range 2–0 is instead range 3–1</div>"
+      },
+      {
+        "name": "Flight Deck",
+        "use": "",
+        "description": "<div>This ship is equipped with 4 wing slots, and 3 additional points that may only be spent on escorts and wings</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "",
+      "description": "<p>Dummy Test</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Tawa",
+    "license_id": "Tawa",
+    "source": "IPS-N",
+    "license_level": 0,
+    "name": "Tawa-Class Medium Carrier",
+    "mechtype": [
+      "Striker"
+    ],
+    "variant": "",
+    "description": "<div>One of the most popular carriers in IPS-N’s portfolio, the Tawa-class medium carrier is a favorite of both larger and smaller state navies that appreciate its durability and simple layout. The Tawa is a no-frills design built for ease of maintenance, fully compatible with IPS-N’s own ANVIL line of automated engineering subalterns, and the capable of fielding strike craft as well as subline vessels for complete-package strategic coverage. One of the Tawa’s strengths is its comparatively compact profile, which allows it to adopt postures unsuitable for other carriers. This is most notable when the ship is used as a staging point for boarding actions, a role in which it excels.</div>",
+    "mounts": [],
+    "stats": {
+      "size": 4,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 16,
+      "evasion": 12,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 4
+    },
+    "traits": [
+      {
+        "name": "Away Teams",
+        "use": "",
+        "description": "<div>This ship’s BOARDING upgrades gain +2 TENACITY.</div>"
+      },
+      {
+        "name": "Flight Deck",
+        "use": "",
+        "description": "<div>This ship is equipped with 1 escort slot, 1 system slot, 2 wing slots, and 3 additional points that may only be spent on escorts and wings</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Masauwu",
+    "license_id": "Masauwu",
+    "source": "IPS-N",
+    "license_level": 0,
+    "name": "Masauwu-Class Heavy Carrier-Frame",
+    "mechtype": [
+      "Striker"
+    ],
+    "variant": "",
+    "description": "<div>Unlike the Tawa, the Masauwu-class heavy carrier-frame is an outsized design, bulky and ungainly. Built to support mixed subline/bomber/chassis tactics, the cavernous housing bays of the Masauwu are large enough to carry even subline ships, granting them an additional layer of protection during transport. Once engaged, the ship’s robust command-and-control systems allow it to coordinate its deployed vessels with remarkable efficiency. As a result, it tends to be a priority target for enemy commanders and the focus of attempted decapitation strikes, and some commanders have learned to exploit this tendency by baiting opponents into overextending themselves before cutting them off and destroying them, often with the help of the Masauwu itself</div>",
+    "mounts": [],
+    "stats": {
+      "size": 4,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 16,
+      "evasion": 12,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Wolfpack Tactics",
+        "use": "Round",
+        "description": "<div>1/round when you use a tactic to command one of this ship’s ESCORTS, you may also issue a command to another of its ESCORTS or WINGS for free.</div>"
+      },
+      {
+        "name": "Flight Deck",
+        "use": "",
+        "description": "<div>This ship is equipped with 2 escort slots, 2 wing slots, and 3 additional points that may only be spent on escorts and wings</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Murie",
+    "license_id": "Murie",
+    "source": "GMS",
+    "license_level": 0,
+    "name": "Murie-Class Battleship",
+    "mechtype": [
+      "Artillery"
+    ],
+    "variant": "",
+    "description": "<div>The Murie is GMS’s standard battleship design comprising a well-rounded hull armed and outfitted for a variety of scenarios across multiple theaters and doctrines. Although it is most often employed by the Union Navy as a heavy ship of the line, the Murie can be found in virtually every major naval force (and more than a few minor ones), including those of Harrison Armory and the Karrakin Trade Baronies. A posting of note for any commander to be proud of, the Murie has a storied history and a long line of famous names in its pedigree. Considered by many to be an iconic battleship design, it features prominently in numerous omninet dramas and games.</div>",
+    "mounts": [
+      "Superheavy",
+      "Main",
+      "Aux",
+      "Aux"
+    ],
+    "stats": {
+      "size": 4,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 25,
+      "evasion": 12,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Logistical Capacity",
+        "use": "",
+        "description": "<div>This ship is equipped with 1 system slot.</div>"
+      },
+      {
+        "name": "Paragon",
+        "use": "",
+        "description": "<div>1/round, you may add +1 ACCURACY to any roll made by you or an allied battlegroup in the same range band. 1/engagement, you may add +3 ACCURACY instead</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Paragon",
+      "active_name": "Paragon",
+      "active_effect": "<p>1/engagement, you may add +3 ACCURACY instead of 1 when using the Paragon Trait</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Thoreay",
+    "license_id": "Thoreay",
+    "source": "GMS",
+    "license_level": 0,
+    "name": "Thoreau-Class Battleship",
+    "mechtype": [
+      "Artillery"
+    ],
+    "variant": "",
+    "description": "<div>A ship with origins that can be traced back to the late Second Committee, the</div><div>Thoreau exists today as a tangible reminder of an earlier and more imperialistic</div><div>period in Union’s history. Updated for the modern era, the Thoreau is a veritable</div><div>fortress built to enhance a fleet’s offensive capabilities with a combination of</div><div>advanced fire-control systems, aggressive NHP deportment, and robust power reserves,</div><div>all supporting a hull bristling with weapons. With the sheer amount of firepower at</div><div>its disposal, it isn’t unheard of for a single Thoreau to be assigned as a “fleet of</div><div>one” to the defense of a polity under Union’s umbrella. Some critics within ThirdComm</div><div>argue that the ship should be retired as part of the ongoing reorganization of</div><div>Union’s navy, citing its prominent role in SecComm’s frequent use of “battleship</div><div>diplomacy”, but the Thoreau simply remains too useful to mothball entirely.</div>",
+    "mounts": [
+      "Superheavy",
+      "Main",
+      "Main",
+      "Aux",
+      "Aux"
+    ],
+    "stats": {
+      "size": 4,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 25,
+      "evasion": 12,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 7
+    },
+    "traits": [
+      {
+        "name": "Barrage Doctrine",
+        "use": "Round",
+        "description": "<div>When you fire a PRIMARY weapon as part of ALL AHEAD FULL, you may use two AUXILIARY weapons alongside it instead of one.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Unleash Hell",
+      "active_name": "Unleash Hell",
+      "active_effect": "<p><strong>Maneuver, Limited 1</strong></p><p>You may fire one SUPERHEAVY weapon and up to two PRIMARY weapons, or up to four PRIMARY weapons. You cannot use this maneuver if you have already moved this turn.</p>",
+      "activation": "Full",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Louis",
+    "license_id": "Louis",
+    "source": "HA",
+    "license_level": 0,
+    "name": "Louis XIV-Class Dreadnought",
+    "mechtype": [
+      "Defender"
+    ],
+    "variant": "",
+    "description": "<div>Unusually for a battleship, the Louis XIV–class dreadnought is comparatively fragile, but only because it foregoes raw structural integrity for a novel array of advanced projected defense systems and high-powered blinkfield shielding that can reliably deflect or disperse even the heaviest firepower. It is the result of a tireless effort on the part of naval engineers and the Armory’s Think Tank research and development amalgam to address one of the most pressing strategic problems in contemporary naval warfare: the extreme degree to which firepower outstrips defensive technologies. The Louis XIV is the most advanced product of this research to date, and while it fails to completely address this problem, it is nonetheless viewed as a tangible sign of progress, wih optimistic futurists touting it as the shape of things to come. To further broaden its portfolio among Armory commanders, the ship’s shield arrays can also be tuned for remote projection, enabling it to extend its protection to other nearby vessels as well.</div>",
+    "mounts": [
+      "Superheavy",
+      "Main"
+    ],
+    "stats": {
+      "size": 4,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 15,
+      "evasion": 13,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 7
+    },
+    "traits": [
+      {
+        "name": "Pinpoint Aegis",
+        "use": "",
+        "description": "<div>Your battlegroup gains +1D6 INTERDICTION. Additionally, this ship begins each engagement with 5 OVERSHIELD and gains 5 OVERSHIELD at the start of each Logistics Phase. While this ship has OVERSHIELD, it gains +2 DEFENSE.</div>"
+      },
+	  {
+        "name": "Logistical Capacity",
+        "use": "",
+        "description": "<div>This ship is equipped with 2 system slot.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Projected Blackshield",
+      "active_name": "Projected Blackshield",
+      "active_effect": "<p><strong>Tactic, Limited 1</strong></p><p>Your battlegroup or an allied battlegroup of your choice gains +3D6 INTERDICTION and a ship of your choice in that battlegroup gains +4 DEFENSE until the end of the next Impact Phase. While this effect is active, the chosen ship is also immune to critical hits.</p>",
+      "activation": "Quick",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": [
+        {
+          "id": "tg_limited",
+          "name": "Limited {VAL}",
+          "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+          "val": 1
+        }
+      ]
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Michel Ney",
+    "license_id": "Michel Ney",
+    "source": "HA",
+    "license_level": 0,
+    "name": "Michel Ney-Class Dreadnought",
+    "mechtype": [
+      "Striker"
+    ],
+    "variant": "",
+    "description": "<div>The Michel Ney–class dreadnought represents one of Harrison Armory’s most advanced technological developments, and one of its most closely guarded secrets. Originally nothing more than a modified variant of the GMS Murie, the latest version of the Michel Ney is actually an augmented retrofit currently being used as a testbed platform for a highly experimental, highly classified form of nonlocal blinkspace transit. A potential paradigm-shifting development in naval warfare, the Union Intelligence Bureau and Union Naval Intelligence have both confirmed that the ship’s distinct emission signatures are consistent with those observed in the Armory’s Sunzi chassis, itself believed to have been developed with stolen Volador technology. This is the first known attempt by Armory engineers to incorporate this technology into a capital ship and the results are striking, granting commanders a battleship-class vessel capable of hit-and-run maneuvers unanticipated by a ship of its tonnage. With the escalation of conflicts in the Dawnline Shore, it appears that the Armory is using the opportunity to gather live combat data, leaving other forces operating in-theater scrambling to assemble a response. Commanders assigned to a Michel Ney operate under strict orders from the highest level of the Purview Directorate to never allow their vessel to fall into enemy hands, no matter the cost.</div>",
+    "mounts": [
+      "Superheavy",
+      "Main",
+      "Main"
+    ],
+    "stats": {
+      "size": 4,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 25,
+      "evasion": 12,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 7
+    },
+    "traits": [
+      {
+        "name": "Blinkspace Carver",
+        "use": "",
+        "description": "<div>When you use the RETROGRADE BURN maneuver, you may also fire a PRIMARY weapon. This may be done before or after moving</div>"
+      },
+      {
+        "name": "Logistical Capacity",
+        "use": "",
+        "description": "<div>This ship is equipped with 1 system slot.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Tactical Blinktunnler",
+      "active_name": "Tactical Blinktunnler",
+      "active_effect": "<p><strong>Manuever, Limited 1</strong></p><p>Your battlegroup falls back or advances one range band, becoming BOLSTERED until the end of your next turn. You may also fire one SUPERHEAVY weapon or up to two PRIMARY weapons either before or after moving.</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": [
+        {
+          "id": "tg_limited",
+          "name": "Limited {VAL}",
+          "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+          "val": 1
+        }
+      ]
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "CalendulaBC",
+    "license_id": "CalendulaBC",
+    "source": "FKS",
+    "license_level": 0,
+    "name": "Calendula-Class Battlecruiser",
+    "mechtype": [
+      "Artillery"
+    ],
+    "variant": "",
+    "description": "<div>Sometimes referred to as a “siege cruiser”, the Calendula-class battlecruiser is an</div><div>ostentatious Baronic design that makes numerous sacrifices all in order to mount</div><div>multiple, overlapping superheavy weapons within a single hull. Most ships – even</div><div>battleships – can only bear the engineering stresses and power demands of a single</div><div>one of these devastating armaments, but some elements within Baronic Unified Command</div><div>are more than happy to sacrifice as many practical considerations as necessary for</div><div>the sake of an overwhelming show of force. Even equipped with multiple high-output,</div><div>capital-grade reactors along with an array of deployable heat sinks to manage them,</div><div>the power consumption requirements necessary to support the Calendula are staggering</div><div>– even the most well-maintained example is likely to experience frequent overloads</div><div>and runaway discharges as excessive power is shunted directly into weapon systems at</div><div>rates other navies would deem unsafe. Nonetheless, this danger cuts both ways; the</div><div>Calendula can unleash firepower that other vessels simply cannot hope to match,</div><div>annihilating enemies before the ship’s own flaws catch up with it.</div>",
+    "mounts": [
+      "Superheavy",
+      "Superheavy",
+      "Main"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 23,
+      "evasion": 13,
+      "edef": 0,
+      "heatcap": 4,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 7
+    },
+    "traits": [
+      {
+        "name": "Last Argument of Kings",
+        "use": "",
+        "description": "<div>This ship must have at least one SUPERHEAVY CHARGE weapon</div>"
+      },
+      {
+        "name": "Overcharge Capacitors",
+        "use": "",
+        "description": "<div>This ship can pour more power into its long-spool weapons than is strictly advisable. Whenever you remove a CHARGE COUNTER from one of its SUPERHEAVY weapons, you may choose to take 1 damage and give that weapon an OVERCHARGE COUNTER, up to a maximum of 4 OVERCHARGE COUNTERS. This damage cannot be prevented in any way, but cannot reduce the ship below 1 HP. When you fire a weapon with OVERCHARGE COUNTERS, remove all OVERCHARGE COUNTERS from it and deal an additional +1d3 damage on hit for each counter removed this way.</div><div>OVERCHARGE COUNTERS may be recorded as Heat and Repair Capacity for each of its Superheavy Mounts</div>"
+      },
+      {
+        "name": "Logistical Capacity",
+        "use": "",
+        "description": "<div>This ship is equipped with 1 system slot.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Maximum Power",
+      "active_name": "Maximum Power",
+      "active_effect": "<p><strong>Tactic, Limited 1</strong></p><p>One of this ship’s SUPERHEAVY weapons with the CHARGE tag immediately removes all CHARGE COUNTERS and gains 4 OVERCHARGE COUNTERS, up to a maximum of 4. The next attack made with that weapon gains +4 RELIABLE, but afterwards is destroyed and cannot be used again for the rest of the battle. When you use this tactic, this ship immediately takes 4 damage that cannot be prevented in any way, but which cannot reduce it below 1 HP.</p>",
+      "activation": "Quick",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "Scene",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": [
+        {
+          "id": "tg_limited",
+          "name": "Limited {VAL}",
+          "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+          "val": 1
+        }
+      ]
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Hespersis",
+    "license_id": "Hespersis",
+    "source": "FKS",
+    "license_level": 0,
+    "name": "Hespersis-Class Battlecruiser",
+    "mechtype": [
+      "Artillery"
+    ],
+    "variant": "",
+    "description": "<div>A special project spearheaded by those within Baronic Unified Command who firmly believe that missiles and torpedoes are the dominant future of naval warfare, the Hesperis-class battlecruiser was designed as a proof-of-concept testbed for a new form of payload-focused strategic doctrine. In addition to advanced targeting and munition coordination systems, the Hesperis also serves as a  command-and-control platform for the Crosier Self-Contained Kill Vehicle, an enormous munition that straddles the line between ordnance and independent vessel. The Hesperis has yet to see much in the way of live combat, given the newness of its design and the exorbitant cost of each SCKV, but both the Chamber of Naval Strategy and the project’s detractors are eager to see how well it fares in action.</div>",
+    "mounts": [
+      "Superheavy",
+      "Main",
+      "Main"
+    ],
+    "stats": {
+      "size": 4,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 23,
+      "evasion": 13,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 7
+    },
+    "traits": [
+      {
+        "name": "Impact Assurance Targetting",
+        "use": "Round",
+        "description": "<div>1/round, you may choose one:</div><ul><li><div>During your turn, remove 1 FLIGHT COUNTER from one of your active PAYLOAD attacks.</div></li><li><div>During the Impact Phase, consume a hostile CAPITAL SHIP’s LOCK ON when it rolls INTERDICTION against one or more of your PAYLOAD attacks to force it to reroll 1 INTERDICTION die and keep the worse result.</div></li></ul>"
+      },
+      {
+        "name": "Self-Contained Kill Vehicle",
+        "use": "",
+        "description": "<div>This ship begins combat accompanied by a pair of Self-Contained Kill Vehicles – massive independent munitions large enough to carry their own defenses. While unlaunched, each SCKV counts as a CAPITAL SHIP for the purpose of attacks and abilities, with 10 HP, 10 DEFENSE, and an AUXILIARY weapon slot. SCKVs cannot be boarded. If this ship is destroyed, its unlaunched SCKVs are harmlessly destroyed as well.</div><div>You may launch one or both SCKVs as a maneuver during your turn. Treat them as SUPERHEAVY SINGLE-TARGET PAYLOAD –1 attacks that deal 12 damage and can be launched at one or two targets, tracking them each individually. SCKVs are also automatically launched whenever you move into range 1–0 during your turn or whenever you begin your turn there. Once an SCKV is launched, it is considered destroyed and cannot be recalled. Whenever you take the ALL AHEAD FULL maneuver during your turn, each unlaunched SCKV under your control permanently increases its damage by +2 for the rest of the engagement to a maximum of +8, and you may also assign one unlaunched SCKV to a DEFENSIVE SCREEN as though it was a FRIGATE.</div><div>Whenever a hostile ship destroys an unlaunched SCKV, that ship’s battlegroup takes 1d6+1 area-target damage. If an SCKV is destroyed while assigned to a DEFENSIVE SCREEN, then the ship it was screening takes 1d6 damage and the hostile ship’s battlegroup takes 2d6 area-target damage instead.</div>"
+      },
+      {
+        "name": "Support Nacelle",
+        "use": "",
+        "description": "<div>This ship is equipped with 1 escort slot.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "HespersisSCKV",
+    "license_id": "HespersisSCKV",
+    "source": "FKS",
+    "license_level": 0,
+    "name": "Crosier Self-Contained Kill Vehicle",
+    "mechtype": [],
+    "variant": "",
+    "description": "<div>A special project spearheaded by those within Baronic Unified Command who firmly believe that missiles and torpedoes are the dominant future of naval warfare, the Hesperis-class battlecruiser was designed as a proof-of-concept testbed for a new form of payload-focused strategic doctrine. In addition to advanced targeting and munition coordination systems, the Hesperis also serves as a  command-and-control platform for the Crosier Self-Contained Kill Vehicle, an enormous munition that straddles the line between ordnance and independent vessel. The Hesperis has yet to see much in the way of live combat, given the newness of its design and the exorbitant cost of each SCKV, but both the Chamber of Naval Strategy and the project’s detractors are eager to see how well it fares in action.</div><div>This SCKV is not an independent ship and may only be fielded as attatched to the Hespersis-Class Battlecruiser</div>",
+    "mounts": [
+      "Aux"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 10,
+      "evasion": 6,
+      "edef": 0,
+      "heatcap": 8,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 0
+    },
+    "traits": [
+      {
+        "name": "Defensive Screen",
+        "use": "",
+        "description": "<div><strong>Tactic</strong></div><div>Choose a FRIGATE under your command and assign it to screen for another CAPITAL SHIP in your battlegroup or for an allied CAPITAL SHIP within the same range band. Until the start of your next turn, all attacks and abilities targeting the screened ship have a 50 percent chance of being intercepted. Roll a die or flip a coin to determine this. Abilities or attacks that are intercepted must either be aborted (wasting the action) or target the screening FRIGATE instead. If the attacker cannot target the screening FRIGATE for some reason, it may then choose another valid target, not including the screened ship. Once assigned to protect a ship, a FRIGATE cannot be ordered to screen for another vessel until the start of your next turn.</div><div>FRIGATES cannot be assigned to a defensive screen if they’ve also attacked on the same turn, and FRIGATES on protective duty cannot use weapons except for AUXILIARY weapons as they must concentrate on intercepting incoming threats. If the screening FRIGATE is destroyed, all effects it was providing to screened ships immediately end. Only a single FRIGATE can screen for another ship at a time, and FRIGATES cannot screen for other Frigates that are also screening</div><div>The SCKV may only be assigned to a defensive screen after its battlegroup takes the <strong>All Ahead Full</strong> maneuver.  If an SCKV is destroyed while assigned to a DEFENSIVE SCREEN, then the ship it was screening takes 1d6 damage and the hostile ship’s battlegroup takes 2d6 area-target damage.</div>"
+      },
+      {
+        "name": "SCKV",
+        "use": "",
+        "description": "<div></div><div>You may launch one or both SCKVs as a maneuver during your turn. Treat them as SUPERHEAVY SINGLE-TARGET PAYLOAD –1 attacks that deal 12 damage and can be launched at one or two targets, tracking them each individually. SCKVs are also automatically launched whenever you move into range 1–0 during your turn or whenever you begin your turn there. Once an SCKV is launched, it is considered destroyed and cannot be recalled. Whenever you take the ALL AHEAD FULL maneuver during your turn, each unlaunched SCKV under your control permanently increases its damage by +2 for the rest of the engagement to a maximum of +8, and you may also assign one unlaunched SCKV to a DEFENSIVE SCREEN as though it was a FRIGATE.</div><div>Bonus damage may be recorded as Heat. Once launched, payload counters may be recorded as the HP value</div><div>Whenever a hostile ship destroys an unlaunched SCKV, that ship’s battlegroup takes 1d6+1 area-target damage. If an SCKV is destroyed while assigned to a DEFENSIVE SCREEN, then the ship it was screening takes 1d6 damage and the hostile ship’s battlegroup takes 2d6 area-target damage instead.</div>"
+      },
+      {
+        "name": "Suicide Ship",
+        "use": "",
+        "description": "<div>While unlaunched, each SCKV counts as a CAPITAL SHIP for the purpose of attacks and abilities, with 10 HP, 10 DEFENSE, and an AUXILIARY weapon slot. SCKVs cannot be boarded. If its parent ship is destroyed, unlaunched SCKVs are harmlessly destroyed aswell.</div><div>Whenever a hostile ship destroys an unlaunched SCKV, that ship’s battlegroup takes 1d6+1 area-target damage. If an SCKV is destroyed while assigned to a DEFENSIVE SCREEN, then the ship it was screening takes 1d6 damage and the hostile ship’s battlegroup takes 2d6 area-target damage instead.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Dummy Core",
+      "active_name": "Dummy Core",
+      "active_effect": "<p>Dummy Text</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Greenland",
+    "license_id": "Greenland",
+    "source": "IPS-N",
+    "license_level": 0,
+    "name": "Greenland-Class Battlecarrier",
+    "mechtype": [
+      "Striker"
+    ],
+    "variant": "",
+    "description": "<div>The “battlecarrier” is an unusual hybrid ship classification hearkening back to Cradle’s ancient past that attempts to marry the firepower of a battleship with the flexible force projection of a carrier. And ever since those ancient days, admirals and strategists have argued over the usefulness of the design with no end in sight. It is, however, generally agreed that IPS-N manufactures the most successful ships of this type, and the Greenland-class battlecarrier is the foremost example in its class, projecting fighter-tier superiority backed by superheavy ordnance. Most comfortable in close to medium ranges where its armaments can support its fighters and vice versa, the Greenland demands a careful balancing of priorities so as not to find itself outmaneuvered and exposed. Despite the contentious reputation of its ilk, the Greenland also enjoys the devoted and loyal favor of numerous commanders who view its idiosyncrasies as unique strengths.</div>",
+    "mounts": [
+      "Superheavy",
+      "Main"
+    ],
+    "stats": {
+      "size": 4,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 30,
+      "evasion": 10,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Hook-Jab",
+        "use": "Round",
+        "description": "<div>1/round whenever a CAPITAL SHIP, ESCORT, or WING in your battlegroup consumes LOCK ON as part of a single-target attack, you may also issue a command to one of this ship’s WINGS for free.</div>"
+      },
+      {
+        "name": "Hangar Bay",
+        "use": "",
+        "description": "<div>This ship is equipped with 3 wing slots.</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Body Blow",
+      "active_name": "Body Blow",
+      "active_effect": "<p><strong>Maneuver, Limited 1</strong></p><p>Repair one of this ship’s WINGS to full HP, even if it has been destroyed, and fire one SUPERHEAVY weapon or up to two PRIMARY weapons. You may then issue commands to all of this ship’s WINGS for free.</p>",
+      "activation": "",
+      "description": "",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": [
+        {
+          "id": "tg_limited",
+          "name": "Limited {VAL}",
+          "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+          "val": 1
+        }
+      ]
+    },
+    "image_url": "",
+    "y_pos": 0
+  },
+  {
+    "id": "Eiland",
+    "license_id": "Eiland",
+    "source": "IPS-N",
+    "license_level": 0,
+    "name": "Eiland-Class Command Carrier",
+    "mechtype": [],
+    "variant": "",
+    "description": "<div>Technically classified as a fleet-level subline command-and-control vessel, the Eiland-class command carrier is on par with most battleships in terms of overall tonnage if not absolute firepower. Virtually a mobile shipyard, the Eiland’s massive bulk is given over to logistical infrastructure, including vast stores of ordnance and supplies, companies of utility subalterns, and automated fabrication and repair systems capable of restoring even critically damaged ships to nominal fighting condition; there are multiple recorded instances of Eiland commanders taking advantage of lulls in battle to restore entire disabled escort groups to combat readiness. A number of Diasporan fleets are known to use Eilands as orbital docking stations and defense platforms, well-armed enough to ward off pirates or aggressive neighbors, while larger navies use them as the centerpieces of large-scale subline fleet operations.</div>",
+    "mounts": [
+      "Superheavy"
+    ],
+    "stats": {
+      "size": 4,
+      "structure": 1,
+      "stress": 1,
+      "armor": 0,
+      "hp": 30,
+      "evasion": 10,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Superior Logistics",
+        "use": "",
+        "description": "<div>This ship has an additional 3 points that can only be spent on ESCORTS. This ship’s ESCORTS begin each battle with 2 OVERSHIELD.</div><div>This ship is equipped with 3 escort slots and 1 system slot</div>"
+      }
+    ],
+    "core_system": {
+      "name": "Combat Refit",
+      "active_name": "Combat Refit",
+      "active_effect": "<p><strong>Tactic, Limited 1</strong></p><p>Repair up to three ESCORTS in your battlegroup or allied battlegroups in the same range band to full HP. One of these ESCORTS may be repaired even if it has been destroyed. You may then issue commands to up to two of this ship’s ESCORTS for free.</p>",
+      "activation": "",
+      "description": "<p>Dummy Text</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": [
+        {
+          "id": "tg_limited",
+          "name": "Limited {VAL}",
+          "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+          "val": 1
+        }
+      ]
+    },
+    "image_url": "",
+    "y_pos": 0
+  }
+]
